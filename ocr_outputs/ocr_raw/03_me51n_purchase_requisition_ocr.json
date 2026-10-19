@@ -1,0 +1,285 @@
+{
+  "image": "03_me51n_purchase_requisition.png",
+  "detections": [
+    {
+      "text": "Menu Edit Goto Extras System Help",
+      "bounding_box": [
+        0,
+        1,
+        331,
+        29
+      ],
+      "confidence": 0.986
+    },
+    {
+      "text": "Create Purchase Requisition",
+      "bounding_box": [
+        0,
+        45,
+        399,
+        77
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "T-Code: ME51N",
+      "bounding_box": [
+        1233,
+        39,
+        1393,
+        69
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "Document Type",
+      "bounding_box": [
+        0,
+        95,
+        127,
+        127
+      ],
+      "confidence": 0.9963
+    },
+    {
+      "text": "Purchasing Group",
+      "bounding_box": [
+        314,
+        100,
+        457,
+        125
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Plant",
+      "bounding_box": [
+        589,
+        98,
+        643,
+        126
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "NB",
+      "bounding_box": [
+        0,
+        124,
+        42,
+        160
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P11",
+      "bounding_box": [
+        316,
+        129,
+        366,
+        161
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        596,
+        129,
+        655,
+        160
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "tem Details",
+      "bounding_box": [
+        0,
+        204,
+        134,
+        234
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "tem",
+      "bounding_box": [
+        0,
+        244,
+        42,
+        272
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Material / Short Text",
+      "bounding_box": [
+        78,
+        246,
+        256,
+        273
+      ],
+      "confidence": 0.9981
+    },
+    {
+      "text": "Quantity",
+      "bounding_box": [
+        484,
+        249,
+        565,
+        278
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Delivery Date",
+      "bounding_box": [
+        637,
+        250,
+        764,
+        277
+      ],
+      "confidence": 0.9937
+    },
+    {
+      "text": "Plant",
+      "bounding_box": [
+        832,
+        249,
+        892,
+        279
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Requisitioner",
+      "bounding_box": [
+        975,
+        252,
+        1100,
+        278
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "0",
+      "bounding_box": [
+        0,
+        287,
+        15,
+        312
+      ],
+      "confidence": 0.899
+    },
+    {
+      "text": "RM-1001 - Raw material A",
+      "bounding_box": [
+        76,
+        287,
+        275,
+        316
+      ],
+      "confidence": 0.9995
+    },
+    {
+      "text": "500 KG",
+      "bounding_box": [
+        480,
+        289,
+        547,
+        318
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "25.10.2026",
+      "bounding_box": [
+        635,
+        293,
+        733,
+        318
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        831,
+        291,
+        886,
+        322
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "TRAIN_USER",
+      "bounding_box": [
+        974,
+        293,
+        1080,
+        321
+      ],
+      "confidence": 0.9951
+    },
+    {
+      "text": "PK-2004 - Packaging",
+      "bounding_box": [
+        72,
+        333,
+        231,
+        363
+      ],
+      "confidence": 0.9997
+    },
+    {
+      "text": "200 EA",
+      "bounding_box": [
+        477,
+        335,
+        543,
+        367
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "28.10.2026",
+      "bounding_box": [
+        633,
+        340,
+        730,
+        365
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        831,
+        340,
+        886,
+        370
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "TRAIN_USER",
+      "bounding_box": [
+        977,
+        343,
+        1080,
+        368
+      ],
+      "confidence": 0.9996
+    },
+    {
+      "text": "1",
+      "bounding_box": [
+        0,
+        880,
+        13,
+        898
+      ],
+      "confidence": 0.3899
+    }
+  ]
+}

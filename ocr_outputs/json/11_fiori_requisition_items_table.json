@@ -1,0 +1,530 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "unreadable"
+  },
+  "screen_title": {
+    "value": "Monitor Purchase Requisition Items",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Monitor Purchase Requisition Items",
+      "value": null,
+      "text": "Monitor Purchase Requisition Items",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        9,
+        504,
+        42
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Requisition",
+      "value": null,
+      "text": "Requisition",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        87,
+        100,
+        118
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Item",
+      "value": null,
+      "text": "Item",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        165,
+        91,
+        216,
+        119
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Material",
+      "value": null,
+      "text": "Material",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        238,
+        90,
+        320,
+        119
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Short Text",
+      "value": null,
+      "text": "Short Text",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        373,
+        88,
+        471,
+        119
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Plant",
+      "value": null,
+      "text": "Plant",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        683,
+        88,
+        740,
+        116
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Quantity",
+      "value": null,
+      "text": "Quantity",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        790,
+        89,
+        872,
+        119
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Status",
+      "value": null,
+      "text": "Status",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        926,
+        89,
+        991,
+        116
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Requisition - 10001234 (row 1)",
+      "value": "10001234",
+      "text": "10001234",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        132,
+        79,
+        157
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item - row 1",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        163,
+        135,
+        196,
+        161
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material - row 1",
+      "value": "RM-1001",
+      "text": "RM-1001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        236,
+        134,
+        314,
+        162
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Short Text - row 1",
+      "value": "Raw material A",
+      "text": "Raw material A",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        375,
+        135,
+        497,
+        159
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant - row 1",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        683,
+        132,
+        734,
+        159
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Quantity - row 1",
+      "value": "500 KG",
+      "text": "500 KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        790,
+        133,
+        854,
+        159
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status - row 1",
+      "value": "Approved",
+      "text": "Approved",
+      "severity": "success",
+      "status": "observed",
+      "bounding_box": [
+        925,
+        127,
+        1009,
+        161
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Requisition - 10001234 (row 2)",
+      "value": "10001234",
+      "text": "10001234",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        201,
+        75,
+        223
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item - row 2",
+      "value": "20",
+      "text": "20",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        161,
+        202,
+        193,
+        228
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material - row 2",
+      "value": "PK-2004",
+      "text": "PK-2004",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        235,
+        203,
+        306,
+        228
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Short Text - row 2",
+      "value": "Packaging",
+      "text": "Packaging",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        371,
+        201,
+        458,
+        229
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant - row 2",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        683,
+        199,
+        733,
+        226
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Quantity - row 2",
+      "value": "200 EA",
+      "text": "200 EA",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        789,
+        200,
+        853,
+        225
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status - row 2",
+      "value": "In Review",
+      "text": "In Review",
+      "severity": "info",
+      "status": "observed",
+      "bounding_box": [
+        927,
+        200,
+        1009,
+        225
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Requisition - 10001235 (row 3)",
+      "value": "10001235",
+      "text": "10001235",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        266,
+        73,
+        291
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item - row 3",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        160,
+        269,
+        192,
+        295
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material - row 3",
+      "value": "RM-1007",
+      "text": "RM-1007",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        234,
+        270,
+        311,
+        295
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Short Text - row 3",
+      "value": "Raw material B",
+      "text": "Raw material B",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        372,
+        270,
+        494,
+        294
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant - row 3",
+      "value": "P002",
+      "text": "P002",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        684,
+        268,
+        734,
+        295
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Quantity - row 3",
+      "value": "100 KG",
+      "text": "100 KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        790,
+        268,
+        855,
+        294
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status - row 3",
+      "value": "Rejected",
+      "text": "Rejected",
+      "severity": "error",
+      "status": "observed",
+      "bounding_box": [
+        929,
+        266,
+        1007,
+        295
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Requisition - 10001236 (row 4)",
+      "value": "10001236",
+      "text": "10001236",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        335,
+        75,
+        361
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item - row 4",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        160,
+        336,
+        192,
+        363
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material - row 4",
+      "value": "CHEM-04",
+      "text": "CHEM-04",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        235,
+        338,
+        313,
+        363
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Short Text - row 4",
+      "value": "Cleaning compound",
+      "text": "Cleaning compound",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        374,
+        339,
+        528,
+        363
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant - row 4",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        685,
+        336,
+        736,
+        364
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Quantity - row 4",
+      "value": "50 L",
+      "text": "50 L",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        792,
+        336,
+        838,
+        364
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status - row 4",
+      "value": "Approved",
+      "text": "Approved",
+      "severity": "success",
+      "status": "observed",
+      "bounding_box": [
+        934,
+        335,
+        1018,
+        365
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "Transaction Code",
+      "value": null,
+      "reason": "unreadable",
+      "bounding_box": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

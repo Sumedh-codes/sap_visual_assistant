@@ -1,0 +1,317 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME31K",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Contract: Check Messages",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Menu Edit Goto Extras System Help",
+      "value": null,
+      "text": "Menu Edit Goto Extras System Help",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        4,
+        322,
+        30
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Contract: Check Messages",
+      "value": null,
+      "text": "Contract: Check Messages",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        47,
+        364,
+        80
+      ]
+    },
+    {
+      "type": "label",
+      "label": "T-Code",
+      "value": "ME31K",
+      "text": "T-Code: ME31K",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1224,
+        42,
+        1374,
+        69
+      ]
+    },
+    {
+      "type": "message",
+      "label": "Warning",
+      "value": "Validity end date is earlier than expected planning horizon.",
+      "text": "Warning: Validity end date is earlier than expected planning horizon.",
+      "severity": "warning",
+      "status": "observed",
+      "bounding_box": [
+        7,
+        114,
+        540,
+        180
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Type (header)",
+      "value": null,
+      "text": "Type",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        238,
+        45,
+        270
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Message (header)",
+      "value": null,
+      "text": "Message",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        78,
+        240,
+        165,
+        268
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Context (header)",
+      "value": null,
+      "text": "Context",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        659,
+        239,
+        739,
+        267
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Status (header)",
+      "value": null,
+      "text": "Status",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        954,
+        239,
+        1023,
+        268
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Type (row 1)",
+      "value": "W",
+      "text": "W",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1,
+        282,
+        45,
+        306
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Message (row 1)",
+      "value": "Validity period should be reviewed",
+      "text": "Validity period should be reviewed",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        78,
+        281,
+        340,
+        305
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Context (row 1)",
+      "value": "Contract 200000005",
+      "text": "Contract 200000005",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        662,
+        283,
+        822,
+        307
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (row 1)",
+      "value": "Open",
+      "text": "Open",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        956,
+        281,
+        1011,
+        311
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Type (row 2)",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1,
+        336,
+        45,
+        366
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Message (row 2)",
+      "value": "Purchasing group P11 assigned",
+      "text": "Purchasing group P11 assigned",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        76,
+        340,
+        316,
+        366
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Context (row 2)",
+      "value": "Header data",
+      "text": "Header data",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        662,
+        343,
+        764,
+        367
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (row 2)",
+      "value": "Informational",
+      "text": "Informational",
+      "severity": "info",
+      "status": "observed",
+      "bounding_box": [
+        962,
+        343,
+        1070,
+        368
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Type (row 3)",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1,
+        396,
+        45,
+        427
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Message (row 3)",
+      "value": "Draft data validated",
+      "text": "Draft data validated",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        75,
+        399,
+        233,
+        425
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Context (row 3)",
+      "value": "Contract item overview",
+      "text": "Contract item overview",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        664,
+        401,
+        847,
+        427
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (row 3)",
+      "value": "Success",
+      "text": "Success",
+      "severity": "success",
+      "status": "observed",
+      "bounding_box": [
+        963,
+        403,
+        1035,
+        429
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "Type (row 2)",
+      "value": null,
+      "reason": "unreadable",
+      "bounding_box": [
+        1,
+        336,
+        45,
+        366
+      ]
+    },
+    {
+      "label": "Type (row 3)",
+      "value": null,
+      "reason": "unreadable",
+      "bounding_box": [
+        1,
+        396,
+        45,
+        427
+      ]
+    }
+  ]
+}

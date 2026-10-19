@@ -1,0 +1,190 @@
+{
+  "type": "object",
+  "required": [
+    "screen_type",
+    "transaction_code",
+    "screen_title",
+    "elements",
+    "uncertain_fields"
+  ],
+  "properties": {
+    "screen_type": {
+      "type": "string",
+      "enum": [
+        "SAP_GUI",
+        "SAP_FIORI",
+        "UNKNOWN"
+      ]
+    },
+    "transaction_code": {
+      "type": "object",
+      "required": [
+        "value",
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "observed",
+            "inferred",
+            "uncertain",
+            "unreadable"
+          ]
+        }
+      }
+    },
+    "screen_title": {
+      "type": "object",
+      "required": [
+        "value",
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "observed",
+            "inferred",
+            "uncertain",
+            "unreadable"
+          ]
+        }
+      }
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "label",
+          "value",
+          "text",
+          "severity",
+          "status",
+          "bounding_box"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "field",
+              "button",
+              "table_cell",
+              "message",
+              "tab",
+              "label",
+              "other"
+            ]
+          },
+          "label": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "value": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "null"
+            ]
+          },
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "severity": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "error",
+              "warning",
+              "success",
+              "info",
+              null
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "observed",
+              "inferred",
+              "uncertain",
+              "unreadable"
+            ]
+          },
+          "bounding_box": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        }
+      }
+    },
+    "uncertain_fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "value",
+          "reason",
+          "bounding_box"
+        ],
+        "properties": {
+          "label": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "value": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "bounding_box": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

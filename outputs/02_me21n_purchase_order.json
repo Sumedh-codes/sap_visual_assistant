@@ -1,0 +1,418 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "uncertain"
+  },
+  "screen_title": {
+    "value": "Create Purchase Order",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "field",
+      "label": "Vendor",
+      "value": "SF00011080",
+      "text": "SF00011080",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        22,
+        120,
+        320,
+        152
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Org.",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        360,
+        120,
+        560,
+        152
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Group",
+      "value": "P11",
+      "text": "P11",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        620,
+        120,
+        820,
+        152
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Company Code",
+      "value": "1000",
+      "text": "1000",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        880,
+        120,
+        1120,
+        152
+      ]
+    },
+    {
+      "type": "label",
+      "label": "T-Code: ME21N",
+      "value": "ME21N",
+      "text": "T-Code: ME21N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1070,
+        60,
+        1320,
+        98
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Item Overview",
+      "value": null,
+      "text": "Item Overview",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        180,
+        220,
+        206
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Item",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        236,
+        80,
+        266
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Material",
+      "value": "RM-1001",
+      "text": "RM-1001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        80,
+        236,
+        220,
+        266
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Short Text",
+      "value": "Raw material A",
+      "text": "Raw material A",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        220,
+        236,
+        460,
+        266
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Qty",
+      "value": "500 KG",
+      "text": "500 KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        460,
+        236,
+        560,
+        266
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Plant",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        236,
+        640,
+        266
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Net Price",
+      "value": "125.00",
+      "text": "125.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        640,
+        236,
+        760,
+        266
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Item",
+      "value": "20",
+      "text": "20",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        266,
+        80,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Material",
+      "value": "PK-2004",
+      "text": "PK-2004",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        80,
+        266,
+        220,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Short Text",
+      "value": "Packaging material",
+      "text": "Packaging material",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        220,
+        266,
+        460,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Qty",
+      "value": "200 EA",
+      "text": "200 EA",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        460,
+        266,
+        560,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Plant",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        266,
+        640,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Net Price",
+      "value": "18.50",
+      "text": "18.50",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        640,
+        266,
+        760,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 30 - Item",
+      "value": "30",
+      "text": "30",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        296,
+        80,
+        326
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 30 - Material",
+      "value": "RM-1007",
+      "text": "RM-1007",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        80,
+        296,
+        220,
+        326
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 30 - Short Text",
+      "value": "Raw material B",
+      "text": "Raw material B",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        220,
+        296,
+        460,
+        326
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 30 - Qty",
+      "value": "100 KG",
+      "text": "100 KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        460,
+        296,
+        560,
+        326
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 30 - Plant",
+      "value": "P002",
+      "text": "P002",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        296,
+        640,
+        326
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 30 - Net Price",
+      "value": "92.00",
+      "text": "92.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        640,
+        296,
+        760,
+        326
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Document reference",
+      "value": "Document reference: Contract 200000005 (synthetic training value)",
+      "text": "Document reference: Contract 200000005 (synthetic training value)",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        340,
+        700,
+        372
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Check",
+      "value": null,
+      "text": "Check",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        700,
+        100,
+        735
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Messages",
+      "value": null,
+      "text": "Messages",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        110,
+        700,
+        230,
+        735
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Save",
+      "value": null,
+      "text": "Save",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1220,
+        700,
+        1350,
+        735
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "T-Code",
+      "value": null,
+      "reason": "ambiguous_association",
+      "bounding_box": [
+        1070,
+        60,
+        1320,
+        98
+      ]
+    }
+  ]
+}

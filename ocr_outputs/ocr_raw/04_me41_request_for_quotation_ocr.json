@@ -1,0 +1,305 @@
+{
+  "image": "04_me41_request_for_quotation.png",
+  "detections": [
+    {
+      "text": "Menu Edit Goto Extras System Help",
+      "bounding_box": [
+        0,
+        0,
+        329,
+        29
+      ],
+      "confidence": 0.9914
+    },
+    {
+      "text": "Create Request for Quotation",
+      "bounding_box": [
+        0,
+        47,
+        414,
+        79
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "T-Code: ME41",
+      "bounding_box": [
+        1239,
+        43,
+        1380,
+        67
+      ],
+      "confidence": 0.9991
+    },
+    {
+      "text": "RFQ Type",
+      "bounding_box": [
+        0,
+        99,
+        83,
+        132
+      ],
+      "confidence": 0.9996
+    },
+    {
+      "text": "Purchasing Organization",
+      "bounding_box": [
+        283,
+        100,
+        479,
+        130
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Purchasing Group",
+      "bounding_box": [
+        609,
+        99,
+        760,
+        130
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Quotation Deadline",
+      "bounding_box": [
+        910,
+        99,
+        1066,
+        127
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "AN",
+      "bounding_box": [
+        0,
+        132,
+        45,
+        165
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        289,
+        134,
+        348,
+        165
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "P11",
+      "bounding_box": [
+        615,
+        131,
+        664,
+        163
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "31.10.2026",
+      "bounding_box": [
+        918,
+        131,
+        1031,
+        159
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "eference Purchase Requisition",
+      "bounding_box": [
+        0,
+        205,
+        250,
+        232
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "10001234",
+      "bounding_box": [
+        0,
+        238,
+        103,
+        262
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "endor Invitation List",
+      "bounding_box": [
+        0,
+        296,
+        245,
+        328
+      ],
+      "confidence": 0.9866
+    },
+    {
+      "text": "/endor",
+      "bounding_box": [
+        0,
+        340,
+        65,
+        369
+      ],
+      "confidence": 0.9686
+    },
+    {
+      "text": "Name",
+      "bounding_box": [
+        194,
+        341,
+        258,
+        370
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Status",
+      "bounding_box": [
+        598,
+        338,
+        666,
+        367
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Currency",
+      "bounding_box": [
+        834,
+        339,
+        926,
+        368
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "F00011080",
+      "bounding_box": [
+        0,
+        384,
+        94,
+        409
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Sample Vendor One",
+      "bounding_box": [
+        197,
+        385,
+        353,
+        409
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "To be sent",
+      "bounding_box": [
+        600,
+        381,
+        687,
+        409
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "INR",
+      "bounding_box": [
+        830,
+        377,
+        878,
+        411
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "F00011081",
+      "bounding_box": [
+        0,
+        430,
+        93,
+        455
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Sample Vendor Two",
+      "bounding_box": [
+        197,
+        432,
+        349,
+        453
+      ],
+      "confidence": 0.9897
+    },
+    {
+      "text": "To be sent",
+      "bounding_box": [
+        602,
+        428,
+        689,
+        453
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "INR",
+      "bounding_box": [
+        835,
+        426,
+        878,
+        455
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "00011082",
+      "bounding_box": [
+        0,
+        475,
+        91,
+        500
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Sample Vendor Three",
+      "bounding_box": [
+        195,
+        476,
+        363,
+        497
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Draft",
+      "bounding_box": [
+        601,
+        471,
+        655,
+        502
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "INR",
+      "bounding_box": [
+        838,
+        472,
+        881,
+        500
+      ],
+      "confidence": 0.9999
+    }
+  ]
+}

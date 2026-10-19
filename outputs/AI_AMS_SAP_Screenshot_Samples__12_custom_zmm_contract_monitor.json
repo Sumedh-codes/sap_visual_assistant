@@ -1,0 +1,420 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ZMM_CONTRACT_MON",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Custom Contract Release Monitor",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Custom transaction: ZMM_CONTRACT_MON (synthetic example)",
+      "value": null,
+      "text": "Custom transaction: ZMM_CONTRACT_MON (synthetic example)",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        120,
+        520,
+        144
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code button",
+      "value": "T-Code: ZMM_CONTRACT_MON",
+      "text": "T-Code: ZMM_CONTRACT_MON",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1008,
+        72,
+        1220,
+        116
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Release Strategy",
+      "value": "ZC1",
+      "text": "ZC1",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        136,
+        240,
+        176
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Approval Group",
+      "value": "PROC_MGR",
+      "text": "PROC_MGR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        260,
+        136,
+        520,
+        176
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Plant",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        136,
+        700,
+        176
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Contract (header)",
+      "value": "Contract",
+      "text": "Contract",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        220,
+        154,
+        256
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Type (header)",
+      "value": "Type",
+      "text": "Type",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        154,
+        220,
+        254,
+        256
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Vendor (header)",
+      "value": "Vendor",
+      "text": "Vendor",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        254,
+        220,
+        394,
+        256
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Release Status (header)",
+      "value": "Release Status",
+      "text": "Release Status",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        394,
+        220,
+        554,
+        256
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Approver (header)",
+      "value": "Approver",
+      "text": "Approver",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        554,
+        220,
+        694,
+        256
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Next Action (header)",
+      "value": "Next Action",
+      "text": "Next Action",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        694,
+        220,
+        820,
+        256
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Contract (Contract 200000005)",
+      "value": "200000005",
+      "text": "200000005",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        256,
+        154,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Type (Contract 200000005)",
+      "value": "ZMK",
+      "text": "ZMK",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        154,
+        256,
+        254,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Vendor (Contract 200000005)",
+      "value": "SF00011080",
+      "text": "SF00011080",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        254,
+        256,
+        394,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Release Status (Contract 200000005)",
+      "value": "Pending",
+      "text": "Pending",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        394,
+        256,
+        554,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Approver (Contract 200000005)",
+      "value": "PROC_MGR",
+      "text": "PROC_MGR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        554,
+        256,
+        694,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Next Action (Contract 200000005)",
+      "value": "Review",
+      "text": "Review",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        694,
+        256,
+        820,
+        296
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Contract (Contract 200000006)",
+      "value": "200000006",
+      "text": "200000006",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        296,
+        154,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Type (Contract 200000006)",
+      "value": "ZWK",
+      "text": "ZWK",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        154,
+        296,
+        254,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Vendor (Contract 200000006)",
+      "value": "SF00011081",
+      "text": "SF00011081",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        254,
+        296,
+        394,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Release Status (Contract 200000006)",
+      "value": "Blocked",
+      "text": "Blocked",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        394,
+        296,
+        554,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Approver (Contract 200000006)",
+      "value": "FIN_APPR",
+      "text": "FIN_APPR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        554,
+        296,
+        694,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Next Action (Contract 200000006)",
+      "value": "Resolve hold",
+      "text": "Resolve hold",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        694,
+        296,
+        820,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Contract (Contract 200000007)",
+      "value": "200000007",
+      "text": "200000007",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        336,
+        154,
+        376
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Type (Contract 200000007)",
+      "value": "MK",
+      "text": "MK",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        154,
+        336,
+        254,
+        376
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Vendor (Contract 200000007)",
+      "value": "SF00011082",
+      "text": "SF00011082",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        254,
+        336,
+        394,
+        376
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Release Status (Contract 200000007)",
+      "value": "Released",
+      "text": "Released",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        394,
+        336,
+        554,
+        376
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Approver (Contract 200000007)",
+      "value": "PROC_MGR",
+      "text": "PROC_MGR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        554,
+        336,
+        694,
+        376
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Next Action (Contract 200000007)",
+      "value": "None",
+      "text": "None",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        694,
+        336,
+        820,
+        376
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

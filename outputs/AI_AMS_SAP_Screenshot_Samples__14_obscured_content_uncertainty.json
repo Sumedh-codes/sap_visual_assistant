@@ -1,0 +1,345 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME53N",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Display Purchase Requisition",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "SAP Easy Access | Training System (Synthetic)",
+      "value": null,
+      "text": "SAP Easy Access | Training System (Synthetic)",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        10,
+        8,
+        740,
+        36
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Menu bar",
+      "value": null,
+      "text": "Menu Edit Goto Extras System Help",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        10,
+        38,
+        400,
+        62
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Screen Title",
+      "value": null,
+      "text": "Display Purchase Requisition",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        72,
+        520,
+        108
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME53N",
+      "value": null,
+      "text": "T-Code: ME53N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1030,
+        72,
+        1220,
+        108
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Requisition",
+      "value": "10001234",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        128,
+        260,
+        168
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Plant",
+      "value": "P001",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        300,
+        128,
+        460,
+        168
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Item",
+      "value": "Item",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        18,
+        204,
+        70,
+        236
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Material",
+      "value": "Material",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        72,
+        204,
+        180,
+        236
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Short Text",
+      "value": "Short Text",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        182,
+        204,
+        360,
+        236
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Quantity",
+      "value": "Quantity",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        362,
+        204,
+        450,
+        236
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Delivery Date",
+      "value": "Delivery Date",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        452,
+        204,
+        580,
+        236
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Item",
+      "value": "10",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        18,
+        242,
+        70,
+        272
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Material",
+      "value": "RM-1001",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        72,
+        242,
+        180,
+        272
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Short Text",
+      "value": "Raw material A",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        182,
+        242,
+        360,
+        272
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Quantity",
+      "value": "50",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        362,
+        242,
+        450,
+        272
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Delivery Date",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "unreadable",
+      "bounding_box": [
+        452,
+        242,
+        580,
+        272
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Item",
+      "value": "20",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        18,
+        276,
+        70,
+        306
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Material",
+      "value": "PK-2004",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        72,
+        276,
+        180,
+        306
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Short Text",
+      "value": "Packaging material",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        182,
+        276,
+        360,
+        306
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Quantity",
+      "value": "20",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        362,
+        276,
+        450,
+        306
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Delivery Date",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "unreadable",
+      "bounding_box": [
+        452,
+        276,
+        580,
+        306
+      ]
+    },
+    {
+      "type": "message",
+      "label": "Popup message",
+      "value": null,
+      "text": "[Content obscured / unreadable]",
+      "severity": "info",
+      "status": "observed",
+      "bounding_box": [
+        500,
+        230,
+        860,
+        300
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "Item 10 - Delivery Date",
+      "value": null,
+      "reason": "partially_obscured",
+      "bounding_box": [
+        452,
+        242,
+        580,
+        272
+      ]
+    },
+    {
+      "label": "Item 20 - Delivery Date",
+      "value": null,
+      "reason": "partially_obscured",
+      "bounding_box": [
+        452,
+        276,
+        580,
+        306
+      ]
+    }
+  ]
+}

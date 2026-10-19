@@ -1,0 +1,280 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME31K",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Contract: Check Messages",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Title",
+      "value": null,
+      "text": "Contract: Check Messages",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        64,
+        560,
+        108
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code",
+      "value": "ME31K",
+      "text": "T-Code: ME31K",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1030,
+        64,
+        1210,
+        108
+      ]
+    },
+    {
+      "type": "message",
+      "label": "Warning banner",
+      "value": null,
+      "text": "Warning\nValidity end date is earlier than expected planning horizon.",
+      "severity": "warning",
+      "status": "observed",
+      "bounding_box": [
+        18,
+        116,
+        1210,
+        200
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Table Header - Type",
+      "value": null,
+      "text": "Type",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        220,
+        80,
+        240
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Table Header - Message",
+      "value": null,
+      "text": "Message",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        80,
+        220,
+        560,
+        240
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Table Header - Context",
+      "value": null,
+      "text": "Context",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        220,
+        760,
+        240
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Table Header - Status",
+      "value": null,
+      "text": "Status",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        760,
+        220,
+        880,
+        240
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Type",
+      "value": "W",
+      "text": "W",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        240,
+        80,
+        280
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Message",
+      "value": "Validity period should be reviewed",
+      "text": "Validity period should be reviewed",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        80,
+        240,
+        560,
+        280
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Context",
+      "value": "Contract 200000005",
+      "text": "Contract 200000005",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        240,
+        760,
+        280
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Status",
+      "value": "Open",
+      "text": "Open",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        760,
+        240,
+        880,
+        280
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Type",
+      "value": "I",
+      "text": "I",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        280,
+        80,
+        320
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Message",
+      "value": "Purchasing group P11 assigned",
+      "text": "Purchasing group P11 assigned",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        80,
+        280,
+        560,
+        320
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Context",
+      "value": "Header data",
+      "text": "Header data",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        280,
+        760,
+        320
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Status",
+      "value": "Informational",
+      "text": "Informational",
+      "severity": "info",
+      "status": "observed",
+      "bounding_box": [
+        760,
+        280,
+        880,
+        320
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Type",
+      "value": "S",
+      "text": "S",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        320,
+        80,
+        360
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Message",
+      "value": "Draft data validated",
+      "text": "Draft data validated",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        80,
+        320,
+        560,
+        360
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Context",
+      "value": "Contract item overview",
+      "text": "Contract item overview",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        320,
+        760,
+        360
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Status",
+      "value": "Success",
+      "text": "Success",
+      "severity": "success",
+      "status": "observed",
+      "bounding_box": [
+        760,
+        320,
+        880,
+        360
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

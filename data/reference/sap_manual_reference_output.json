@@ -1,0 +1,1310 @@
+{
+  "dataset": "AI_AMS_SAP_Screenshot_Samples (15 synthetic screenshots)",
+  "note": "Revised reference-output draft aligned with the supplied screenshot ZIP and dataset README. Screens are synthetic mockups, not genuine SAP captures. Values and labels were cross-checked against the supplied images where visible; bounding boxes remain approximate and must be reviewed at full resolution before this file is treated as evaluation ground truth. Do not infer obscured values.",
+  "coordinate_convention": "[x1, y1, x2, y2] pixel coordinates relative to each original 1440x900 screenshot. Coordinates must satisfy 0 <= x1 < x2 <= 1440 and 0 <= y1 < y2 <= 900.",
+  "status_values": [
+    "observed",
+    "inferred",
+    "uncertain",
+    "unreadable"
+  ],
+  "screenshots": {
+    "01_me31k_contract_header.png": {
+      "screen_type": "sap_gui_contract_creation",
+      "screen_title": {
+        "value": "Create Contract: Header Data",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME31K",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "field",
+          "label": "Contract Type",
+          "value": null,
+          "text": "Available options shown; selected option is not clearly indicated.",
+          "severity": null,
+          "status": "uncertain"
+        },
+        {
+          "type": "field",
+          "label": "Vendor",
+          "value": "SF00011080",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Organization",
+          "value": "P001",
+          "text": "P001",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Group",
+          "value": "P11",
+          "text": "P11",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Company Code",
+          "value": "1000",
+          "text": "1000",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Validity Start",
+          "value": "01.10.2026",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Validity End",
+          "value": "30.09.2027",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "text",
+          "label": "Contract type options",
+          "value": null,
+          "text": "MK - Quantity; WK - Value; ZMK - Custom Qty; ZWK - Custom Value",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "text",
+          "label": "Reference process",
+          "value": null,
+          "text": "PR → RFQ → Contract → Purchase Order",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Header Details",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Item Overview",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Save",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": [
+        "Contract Type: the screen shows available type options (MK, WK, ZMK, ZWK); no single selected value is clearly indicated."
+      ]
+    },
+    "02_me21n_purchase_order.png": {
+      "screen_type": "sap_gui_purchase_order_creation",
+      "screen_title": {
+        "value": "Create Purchase Order",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME21N",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "field",
+          "label": "Vendor",
+          "value": "SF00011080",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Org.",
+          "value": "P001",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Group",
+          "value": "P11",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Company Code",
+          "value": "1000",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 10",
+          "value": {
+            "Material": "RM-1001",
+            "Short Text": "Raw material A",
+            "Qty": "500 KG",
+            "Plant": "P001",
+            "Net Price": "125.00"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 20",
+          "value": {
+            "Material": "PK-2004",
+            "Short Text": "Packaging material",
+            "Qty": "200 EA",
+            "Plant": "P001",
+            "Net Price": "18.50"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 30",
+          "value": {
+            "Material": "RM-1007",
+            "Short Text": "Raw material B",
+            "Qty": "100 KG",
+            "Plant": "P002",
+            "Net Price": "92.00"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "text",
+          "label": "Document reference",
+          "value": "Contract 200000005 (synthetic training value)",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Check",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Messages",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Save",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": []
+    },
+    "03_me51n_purchase_requisition.png": {
+      "screen_type": "sap_gui_purchase_requisition_creation",
+      "screen_title": {
+        "value": "Create Purchase Requisition",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME51N",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "field",
+          "label": "Document Type",
+          "value": "NB",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Group",
+          "value": "P11",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Plant",
+          "value": "P001",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 10",
+          "value": {
+            "Material / Short Text": "RM-1001 - Raw material A",
+            "Quantity": "500 KG",
+            "Delivery Date": "25.10.2026",
+            "Plant": "P001",
+            "Requisitioner": "TRAIN_USER"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 20",
+          "value": {
+            "Material / Short Text": "PK-2004 - Packaging",
+            "Quantity": "200 EA",
+            "Delivery Date": "28.10.2026",
+            "Plant": "P001",
+            "Requisitioner": "TRAIN_USER"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Check",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Save",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": []
+    },
+    "04_me41_request_for_quotation.png": {
+      "screen_type": "sap_gui_request_for_quotation",
+      "screen_title": {
+        "value": "Create Request for Quotation",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME41",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "field",
+          "label": "RFQ Type",
+          "value": "AN",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Organization",
+          "value": "P001",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Group",
+          "value": "P11",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Quotation Deadline",
+          "value": "31.10.2026",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Reference Purchase Requisition",
+          "value": "10001234",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Vendor SF00013080",
+          "value": {
+            "Name": "Sample Vendor One",
+            "Status": "To be sent",
+            "Currency": "INR"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Vendor SF00013081",
+          "value": {
+            "Name": "Sample Vendor Two",
+            "Status": "To be sent",
+            "Currency": "INR"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Vendor SF00013082",
+          "value": {
+            "Name": "Sample Vendor Three",
+            "Status": "Draft",
+            "Currency": "INR"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": []
+    },
+    "05_me32k_contract_item_overview.png": {
+      "screen_type": "sap_gui_contract_item_overview",
+      "screen_title": {
+        "value": "Change Contract: Item Overview",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME32K",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "field",
+          "label": "Contract Number",
+          "value": "200000005",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Vendor",
+          "value": "SF00011080",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Contract Type",
+          "value": "MK",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 10",
+          "value": {
+            "Material": "RM-1001",
+            "Description": "Raw material A",
+            "Target Qty": "10,000",
+            "UoM": "KG",
+            "Net Price": "125.00",
+            "Plant": "P001"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 20",
+          "value": {
+            "Material": "PK-2004",
+            "Description": "Packaging material",
+            "Target Qty": "5,000",
+            "UoM": "EA",
+            "Net Price": "18.50",
+            "Plant": "P001"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 30",
+          "value": {
+            "Material": "RM-1007",
+            "Description": "Raw material B",
+            "Target Qty": "2,500",
+            "UoM": "KG",
+            "Net Price": "92.00",
+            "Plant": "P002"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 40",
+          "value": {
+            "Material": "CHEM-04",
+            "Description": "Cleaning compound",
+            "Target Qty": "500",
+            "UoM": "L",
+            "Net Price": "210.00",
+            "Plant": "P001"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": []
+    },
+    "06_me2n_alv_purchase_order_list.png": {
+      "screen_type": "sap_gui_purchase_order_list",
+      "screen_title": {
+        "value": "Purchase Orders: List Display",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME2N",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "label": "Selection Summary",
+          "value": "Purchasing Organization P001 | Company Code 1000",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003210",
+          "value": {
+            "Vendor": "SF00011080",
+            "Doc. Date": "12.10.2026",
+            "Currency": "INR",
+            "Net Value": "62,500.00",
+            "Status": "Open",
+            "Purch. Group": "P11"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003211",
+          "value": {
+            "Vendor": "SF00011081",
+            "Doc. Date": "12.10.2026",
+            "Currency": "INR",
+            "Net Value": "18,750.00",
+            "Status": "Released",
+            "Purch. Group": "P11"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003212",
+          "value": {
+            "Vendor": "SF00011082",
+            "Doc. Date": "13.10.2026",
+            "Currency": "INR",
+            "Net Value": "41,200.00",
+            "Status": "Blocked",
+            "Purch. Group": "P12"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003213",
+          "value": {
+            "Vendor": "SF00011080",
+            "Doc. Date": "14.10.2026",
+            "Currency": "INR",
+            "Net Value": "9,250.00",
+            "Status": "Open",
+            "Purch. Group": "P11"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003214",
+          "value": {
+            "Vendor": "SF00011083",
+            "Doc. Date": "14.10.2026",
+            "Currency": "INR",
+            "Net Value": "33,800.00",
+            "Status": "In Process",
+            "Purch. Group": "P10"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "text",
+          "label": "Instruction",
+          "value": "Select a row to display document details.",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": []
+    },
+    "07_error_popup_missing_purch_org.png": {
+      "screen_type": "sap_gui_error_dialog",
+      "screen_title": {
+        "value": "Error",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME21N",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "message",
+          "label": "Error",
+          "value": null,
+          "text": "Purchasing organization is required.",
+          "severity": "error",
+          "status": "observed"
+        },
+        {
+          "type": "text",
+          "label": "Message ID",
+          "value": "ME 083 (illustrative)",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Continue",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": [
+        "Purchasing Organization field is missing or empty; the background form is dimmed and its fields are not fully visible."
+      ]
+    },
+    "08_contract_warning_messages.png": {
+      "screen_type": "sap_gui_contract_check_messages",
+      "screen_title": {
+        "value": "Contract: Check Messages",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME31K",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "message",
+          "label": "Warning",
+          "value": null,
+          "text": "Validity end date is earlier than expected planning horizon.",
+          "severity": "warning",
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Message row 1",
+          "value": {
+            "Type": "W",
+            "Message": "Validity period should be reviewed",
+            "Context": "Contract 200000005",
+            "Status": "Open"
+          },
+          "text": null,
+          "severity": "warning",
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Message row 2",
+          "value": {
+            "Type": "I",
+            "Message": "Purchasing group P11 assigned",
+            "Context": "Header data",
+            "Status": "Informational"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Message row 3",
+          "value": {
+            "Type": "S",
+            "Message": "Draft data validated",
+            "Context": "Contract item overview",
+            "Status": "Success"
+          },
+          "text": null,
+          "severity": "success",
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": []
+    },
+    "09_fiori_purchasing_launchpad.png": {
+      "screen_type": "sap_fiori_purchasing_launchpad",
+      "screen_title": {
+        "value": "Purchasing Overview",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": null,
+        "status": "unreadable"
+      },
+      "elements": [
+        {
+          "type": "tile",
+          "label": "Manage Purchase Orders",
+          "value": null,
+          "text": "Open application →",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "tile",
+          "label": "Create Purchase Requisition",
+          "value": null,
+          "text": "Open application →",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "tile",
+          "label": "Manage RFQs Sourcing",
+          "value": null,
+          "text": "Open application →",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "tile",
+          "label": "Manage Purchase Contracts",
+          "value": null,
+          "text": "Open application →",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "tile",
+          "label": "Supplier Evaluation",
+          "value": null,
+          "text": "Open application →",
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "tile",
+          "label": "Monitor Items Delivery",
+          "value": null,
+          "text": "Open application →",
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": [
+        "No transaction code is displayed; these are Fiori-style application tiles rather than a SAP GUI transaction screen."
+      ]
+    },
+    "10_fiori_contract_form.png": {
+      "screen_type": "sap_fiori_contract_creation_form",
+      "screen_title": {
+        "value": "Create Purchase Contract",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": null,
+        "status": "unreadable"
+      },
+      "elements": [
+        {
+          "type": "field",
+          "label": "Supplier",
+          "value": "SF00011080",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Organization",
+          "value": "P001",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Group",
+          "value": "P11",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Company Code",
+          "value": "1000",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Contract Type",
+          "value": "MK",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Validity Start",
+          "value": "01.10.2026",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Validity End",
+          "value": "30.09.2027",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Check",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "button",
+          "label": "Save Draft",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": [
+        "No transaction code is displayed because this is a Fiori-style form."
+      ]
+    },
+    "11_fiori_requisition_items_table.png": {
+      "screen_type": "sap_fiori_purchase_requisition_monitor",
+      "screen_title": {
+        "value": "Monitor Purchase Requisition Items",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": null,
+        "status": "unreadable"
+      },
+      "elements": [
+        {
+          "type": "table_row",
+          "label": "Requisition 10001234, item 10",
+          "value": {
+            "Material": "RM-1001",
+            "Short Text": "Raw material A",
+            "Plant": "P001",
+            "Quantity": "500 KG",
+            "Status": "Approved"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Requisition 10001234, item 20",
+          "value": {
+            "Material": "PK-2004",
+            "Short Text": "Packaging",
+            "Plant": "P001",
+            "Quantity": "200 EA",
+            "Status": "In Review"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Requisition 10001235, item 10",
+          "value": {
+            "Material": "RM-1007",
+            "Short Text": "Raw material B",
+            "Plant": "P002",
+            "Quantity": "100 KG",
+            "Status": "Rejected"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Requisition 10001236, item 10",
+          "value": {
+            "Material": "CHEM-04",
+            "Short Text": "Cleaning compound",
+            "Plant": "P001",
+            "Quantity": "50 L",
+            "Status": "Approved"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": [
+        "No transaction code is displayed because this is a Fiori-style table."
+      ]
+    },
+    "12_custom_zmm_contract_monitor.png": {
+      "screen_type": "sap_gui_custom_contract_release_monitor",
+      "screen_title": {
+        "value": "Custom Contract Release Monitor",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ZMM_CONTRACT_MON",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "label": "Custom transaction description",
+          "value": "Custom transaction: ZMM_CONTRACT_MON (synthetic example)",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Release Strategy",
+          "value": "ZC1",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Approval Group",
+          "value": "PROC_MGR",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Plant",
+          "value": "P001",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Contract 200000005",
+          "value": {
+            "Type": "ZMK",
+            "Vendor": "SF00011080",
+            "Release Status": "Pending",
+            "Approver": "PROC_MGR",
+            "Next Action": "Review"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Contract 200000006",
+          "value": {
+            "Type": "ZWK",
+            "Vendor": "SF00011081",
+            "Release Status": "Blocked",
+            "Approver": "FIN_APPR",
+            "Next Action": "Resolve hold"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Contract 200000007",
+          "value": {
+            "Type": "MK",
+            "Vendor": "SF00011082",
+            "Release Status": "Released",
+            "Approver": "PROC_MGR",
+            "Next Action": "None"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": []
+    },
+    "13_dense_purchase_history.png": {
+      "screen_type": "sap_gui_purchase_order_history",
+      "screen_title": {
+        "value": "Purchase Order History: Dense Overview",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME23N",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "table_row",
+          "label": "PO 4500003210, item 10",
+          "value": {
+            "Material": "RM-1001",
+            "Plant": "P001",
+            "Qty": "500 KG",
+            "UoM": "KG",
+            "Amount": "62500.00",
+            "Currency": "INR",
+            "Doc. Date": "12.10.26",
+            "Movement": "101",
+            "Status": "Posted"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003210, item 20",
+          "value": {
+            "Material": "PK-2004",
+            "Plant": "P001",
+            "Qty": "200 EA",
+            "UoM": "EA",
+            "Amount": "3700.00",
+            "Currency": "INR",
+            "Doc. Date": "12.10.26",
+            "Movement": "101",
+            "Status": "Posted"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003211, item 10",
+          "value": {
+            "Material": "RM-1007",
+            "Plant": "P002",
+            "Qty": "100 KG",
+            "UoM": "KG",
+            "Amount": "9200.00",
+            "Currency": "INR",
+            "Doc. Date": "13.10.26",
+            "Movement": "101",
+            "Status": "Open"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003212, item 10",
+          "value": {
+            "Material": "CHEM-04",
+            "Plant": "P001",
+            "Qty": "50 L",
+            "UoM": "L",
+            "Amount": "10500.00",
+            "Currency": "INR",
+            "Doc. Date": "13.10.26",
+            "Movement": "102",
+            "Status": "Reversed"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003213, item 10",
+          "value": {
+            "Material": "RM-1001",
+            "Plant": "P001",
+            "Qty": "300 KG",
+            "UoM": "KG",
+            "Amount": "37500.00",
+            "Currency": "INR",
+            "Doc. Date": "14.10.26",
+            "Movement": "101",
+            "Status": "Posted"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "PO 4500003214, item 10",
+          "value": {
+            "Material": "PK-2004",
+            "Plant": "P001",
+            "Qty": "900 EA",
+            "UoM": "EA",
+            "Amount": "16650.00",
+            "Currency": "INR",
+            "Doc. Date": "14.10.26",
+            "Movement": "101",
+            "Status": "Open"
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "text",
+          "label": "Instruction",
+          "value": "Dense table challenge: preserve row/column associations and exact numeric values.",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": []
+    },
+    "14_obscured_content_uncertainty.png": {
+      "screen_type": "sap_gui_purchase_requisition_display",
+      "screen_title": {
+        "value": "Display Purchase Requisition",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME53N",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "field",
+          "label": "Requisition",
+          "value": "10001234",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Plant",
+          "value": "P001",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 10",
+          "value": {
+            "Material": "RM-1001",
+            "Short Text": "Raw material A",
+            "Quantity": "50",
+            "Delivery Date": null
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "table_row",
+          "label": "Item 20",
+          "value": {
+            "Material": "PK-2004",
+            "Short Text": "Packaging material",
+            "Quantity": "20",
+            "Delivery Date": null
+          },
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "text",
+          "label": "Obscured overlay",
+          "value": null,
+          "text": "[Content obscured / unreadable]",
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": [
+        "Delivery Date values are obscured/unreadable for the visible item rows; do not infer them. The overlay covers part of the table."
+      ]
+    },
+    "15_sensitive_fields_redaction_test.png": {
+      "screen_type": "sap_gui_purchase_contract_header_details",
+      "screen_title": {
+        "value": "Purchase Contract: Header Details",
+        "status": "observed"
+      },
+      "transaction_code": {
+        "value": "ME32K",
+        "status": "observed"
+      },
+      "elements": [
+        {
+          "type": "field",
+          "label": "Vendor Name",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "unreadable"
+        },
+        {
+          "type": "field",
+          "label": "Vendor Contact Email",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "unreadable"
+        },
+        {
+          "type": "field",
+          "label": "Purchasing Organization",
+          "value": "P001",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Company Code",
+          "value": "1000",
+          "text": null,
+          "severity": null,
+          "status": "observed"
+        },
+        {
+          "type": "field",
+          "label": "Contract Number",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "unreadable"
+        },
+        {
+          "type": "field",
+          "label": "Created By",
+          "value": null,
+          "text": null,
+          "severity": null,
+          "status": "unreadable"
+        },
+        {
+          "type": "text",
+          "label": "Privacy instruction",
+          "value": null,
+          "text": "Training note: redact sensitive fields before external model calls.",
+          "severity": null,
+          "status": "observed"
+        }
+      ],
+      "uncertain_fields": [
+        "Vendor Name, Vendor Contact Email, Contract Number, and Created By are visibly masked; their original values must not be reconstructed."
+      ]
+    }
+  },
+  "review_context": {
+    "source_archive": "SAP_Screenshot_Samples(2).zip",
+    "source_manifest": "AI_AMS_SAP_Screenshot_Samples/README.txt",
+    "screenshot_count": 15,
+    "image_dimensions": "All 15 PNG screenshots are 1440x900 pixels.",
+    "synthetic_data_notice": "Names, IDs, dates, values, and messages are synthetic. Message ID ME 083 is illustrative.",
+    "privacy_policy_for_annotation": "Do not reconstruct original values of fields visibly masked in screenshot 15.",
+    "evaluation_warning": "This is a draft reference set. Review all boxes and annotations against original pixels before computing final metrics."
+  }
+}

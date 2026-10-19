@@ -1,0 +1,350 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME41",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Create Request for Quotation",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Create Request for Quotation",
+      "value": null,
+      "text": "Create Request for Quotation",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        84,
+        650,
+        128
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME41",
+      "value": "ME41",
+      "text": "T-Code: ME41",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1016,
+        60,
+        1220,
+        106
+      ]
+    },
+    {
+      "type": "field",
+      "label": "RFQ Type",
+      "value": "AN",
+      "text": "AN",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        140,
+        220,
+        176
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Organization",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        250,
+        140,
+        460,
+        176
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Group",
+      "value": "P11",
+      "text": "P11",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        480,
+        140,
+        700,
+        176
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Quotation Deadline",
+      "value": "31.10.2026",
+      "text": "31.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        720,
+        140,
+        980,
+        176
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Reference Purchase Requisition",
+      "value": "10001234",
+      "text": "10001234",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        188,
+        344,
+        228
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Vendor Invitation List",
+      "value": null,
+      "text": "Vendor Invitation List",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        236,
+        300,
+        272
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Table Header - Vendor",
+      "value": null,
+      "text": "Vendor",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        274,
+        140,
+        304
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Table Header - Name",
+      "value": null,
+      "text": "Name",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        220,
+        274,
+        460,
+        304
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Table Header - Status",
+      "value": null,
+      "text": "Status",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        520,
+        274,
+        640,
+        304
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Table Header - Currency",
+      "value": null,
+      "text": "Currency",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        660,
+        274,
+        760,
+        304
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Vendor (row 1)",
+      "value": "SF00011080",
+      "text": "SF00011080",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        304,
+        220,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Name (row 1)",
+      "value": "Sample Vendor One",
+      "text": "Sample Vendor One",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        220,
+        304,
+        520,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (row 1)",
+      "value": "To be sent",
+      "text": "To be sent",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        520,
+        304,
+        660,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Currency (row 1)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        660,
+        304,
+        760,
+        336
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Vendor (row 2)",
+      "value": "SF00011081",
+      "text": "SF00011081",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        336,
+        220,
+        368
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Name (row 2)",
+      "value": "Sample Vendor Two",
+      "text": "Sample Vendor Two",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        220,
+        336,
+        520,
+        368
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (row 2)",
+      "value": "To be sent",
+      "text": "To be sent",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        520,
+        336,
+        660,
+        368
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Currency (row 2)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        660,
+        336,
+        760,
+        368
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Vendor (row 3)",
+      "value": "SF00011082",
+      "text": "SF00011082",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        368,
+        220,
+        400
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Name (row 3)",
+      "value": "Sample Vendor Three",
+      "text": "Sample Vendor Three",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        220,
+        368,
+        520,
+        400
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (row 3)",
+      "value": "Draft",
+      "text": "Draft",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        520,
+        368,
+        660,
+        400
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Currency (row 3)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        660,
+        368,
+        760,
+        400
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

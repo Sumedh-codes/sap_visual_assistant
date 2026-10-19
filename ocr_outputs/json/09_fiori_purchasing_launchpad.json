@@ -1,0 +1,112 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "unreadable"
+  },
+  "screen_title": {
+    "value": "Purchasing Overview",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Purchasing Overview",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        12,
+        288,
+        39
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Manage Purchase Orders",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        147,
+        320,
+        276
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Create Purchase Requisition",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        507,
+        146,
+        776,
+        277
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Manage RFQs Sourcing",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        983,
+        144,
+        1214,
+        276
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Manage Purchase Contracts",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        16,
+        439,
+        320,
+        567
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Supplier Evaluation",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        507,
+        439,
+        716,
+        571
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Monitor Items Delivery",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        996,
+        441,
+        1242,
+        572
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

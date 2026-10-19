@@ -1,0 +1,670 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME2N",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Purchase Orders: List Display",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Menu Edit Goto Extras System Help",
+      "value": null,
+      "text": "Menu Edit Goto Extras System Help",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        11,
+        316,
+        37
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Selection Summary: Purchasing Organization P001 | Company Code 1000",
+      "value": null,
+      "text": "Selection Summary: Purchasing Organization P001 | Company Code 1000",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        103,
+        713,
+        139
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME2N",
+      "value": null,
+      "text": "T-Code: ME2N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1220,
+        40,
+        1370,
+        69
+      ]
+    },
+    {
+      "type": "label",
+      "label": "ber",
+      "value": null,
+      "text": "ber",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        72,
+        166,
+        106,
+        192
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Vendor",
+      "value": null,
+      "text": "Vendor",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        148,
+        165,
+        219,
+        194
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Doc. Date",
+      "value": null,
+      "text": "Doc. Date",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        308,
+        163,
+        403,
+        193
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Currency",
+      "value": null,
+      "text": "Currency",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        445,
+        162,
+        529,
+        191
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Net Value",
+      "value": null,
+      "text": "Net Value",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        546,
+        162,
+        633,
+        187
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Status",
+      "value": null,
+      "text": "Status",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        700,
+        160,
+        767,
+        186
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Purch. Group",
+      "value": null,
+      "text": "Purch. Group",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        852,
+        160,
+        971,
+        185
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "4500003210 | Number",
+      "value": "4500003210",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        207,
+        98,
+        231
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "4500003210 | Vendor",
+      "value": "SF00011080",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        148,
+        206,
+        247,
+        233
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "4500003210 | Doc. Date",
+      "value": "12.10.2026",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        307,
+        203,
+        404,
+        234
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "4500003210 | Currency",
+      "value": "INR",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        443,
+        202,
+        484,
+        231
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "4500003210 | Net Value",
+      "value": "62,500.00",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        547,
+        203,
+        629,
+        228
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "4500003210 | Status",
+      "value": "Open",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        700,
+        200,
+        756,
+        230
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "4500003210 | Purch. Group",
+      "value": "P11",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        849,
+        199,
+        892,
+        227
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003211 | Number",
+      "value": "500003211",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        260,
+        94,
+        287
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003211 | Vendor",
+      "value": "SF00011081",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        147,
+        263,
+        245,
+        287
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003211 | Doc. Date",
+      "value": "12.10.2026",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        307,
+        258,
+        405,
+        288
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003211 | Currency",
+      "value": "INR",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        444,
+        258,
+        485,
+        286
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003211 | Net Value",
+      "value": "18,750.00",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        548,
+        259,
+        631,
+        284
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003211 | Status",
+      "value": "Released",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        702,
+        256,
+        783,
+        285
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003211 | Purch. Group",
+      "value": "P11",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        850,
+        256,
+        894,
+        284
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003212 | Number",
+      "value": "500003212",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        318,
+        90,
+        344
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003212 | Vendor",
+      "value": "SF00011082",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        145,
+        319,
+        245,
+        344
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003212 | Doc. Date",
+      "value": "13.10.2026",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        310,
+        317,
+        405,
+        343
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003212 | Currency",
+      "value": "INR",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        444,
+        314,
+        485,
+        344
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003212 | Net Value",
+      "value": "41,200.00",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        549,
+        315,
+        632,
+        341
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003212 | Status",
+      "value": "Blocked",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        703,
+        309,
+        776,
+        342
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003212 | Purch. Group",
+      "value": "P12",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        852,
+        311,
+        897,
+        342
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003213 | Number",
+      "value": "500003213",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        374,
+        89,
+        399
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003213 | Vendor",
+      "value": "SF00011080",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        144,
+        375,
+        245,
+        399
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003213 | Doc. Date",
+      "value": "14.10.2026",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        311,
+        374,
+        406,
+        399
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003213 | Currency",
+      "value": "INR",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        445,
+        372,
+        486,
+        400
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003213 | Net Value",
+      "value": "9,250.00",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        548,
+        371,
+        626,
+        399
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003213 | Status",
+      "value": "Open",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        706,
+        369,
+        762,
+        399
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003213 | Purch. Group",
+      "value": "P11",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        853,
+        368,
+        900,
+        399
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003214 | Number",
+      "value": "500003214",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        433,
+        91,
+        457
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003214 | Vendor",
+      "value": "SF00011083",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        147,
+        432,
+        247,
+        457
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003214 | Doc. Date",
+      "value": "14.10.2026",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        311,
+        428,
+        406,
+        455
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003214 | Currency",
+      "value": "INR",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        447,
+        429,
+        486,
+        455
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003214 | Net Value",
+      "value": "33,800.00",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        551,
+        428,
+        636,
+        453
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003214 | Status",
+      "value": "In Process",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        710,
+        427,
+        795,
+        451
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "500003214 | Purch. Group",
+      "value": "P10",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        856,
+        426,
+        900,
+        453
+      ]
+    },
+    {
+      "type": "message",
+      "label": "Select a row to display document details.",
+      "value": null,
+      "text": "Select a row to display document details.",
+      "severity": "info",
+      "status": "observed",
+      "bounding_box": [
+        0,
+        525,
+        313,
+        554
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "ber",
+      "value": null,
+      "reason": "partially_obscured",
+      "bounding_box": [
+        72,
+        166,
+        106,
+        192
+      ]
+    }
+  ]
+}

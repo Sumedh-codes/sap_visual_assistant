@@ -1,0 +1,125 @@
+{
+  "image": "15_sensitive_fields_redaction_test.png",
+  "detections": [
+    {
+      "text": "Menu Edit Goto Extras System Help",
+      "bounding_box": [
+        0,
+        5,
+        317,
+        29
+      ],
+      "confidence": 0.9862
+    },
+    {
+      "text": "Purchase Contract: Header Details",
+      "bounding_box": [
+        0,
+        48,
+        468,
+        77
+      ],
+      "confidence": 0.9881
+    },
+    {
+      "text": "T-Code: ME32K",
+      "bounding_box": [
+        1215,
+        40,
+        1378,
+        66
+      ],
+      "confidence": 0.9875
+    },
+    {
+      "text": "endor Name",
+      "bounding_box": [
+        0,
+        103,
+        105,
+        128
+      ],
+      "confidence": 0.9969
+    },
+    {
+      "text": "Vendor Contact Email",
+      "bounding_box": [
+        398,
+        101,
+        565,
+        126
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "Purchasing Organization",
+      "bounding_box": [
+        837,
+        99,
+        1034,
+        126
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        844,
+        130,
+        904,
+        160
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "ompany Code",
+      "bounding_box": [
+        0,
+        211,
+        115,
+        235
+      ],
+      "confidence": 0.9992
+    },
+    {
+      "text": "Contract Number",
+      "bounding_box": [
+        326,
+        208,
+        467,
+        235
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Created By",
+      "bounding_box": [
+        655,
+        206,
+        751,
+        234
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "1000",
+      "bounding_box": [
+        0,
+        240,
+        51,
+        267
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Training note: redact sensitive fields before external model calls.",
+      "bounding_box": [
+        3,
+        350,
+        649,
+        373
+      ],
+      "confidence": 0.9928
+    }
+  ]
+}

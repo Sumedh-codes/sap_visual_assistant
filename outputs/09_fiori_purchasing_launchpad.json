@@ -1,0 +1,126 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "uncertain"
+  },
+  "screen_title": {
+    "value": "Purchasing Overview",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "SAP Fiori Launchpad | Sample Training System",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        0,
+        1235,
+        48
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Purchasing Overview",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        16,
+        56,
+        1219,
+        112
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Manage Purchase Orders",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        40,
+        128,
+        395,
+        260
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Create Purchase Requisition",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        128,
+        805,
+        260
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Manage RFQs Sourcing",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        825,
+        128,
+        1185,
+        260
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Manage Purchase Contracts",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        40,
+        320,
+        395,
+        452
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Supplier Evaluation",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        320,
+        805,
+        452
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Monitor Items Delivery",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        825,
+        320,
+        1185,
+        452
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

@@ -1,0 +1,345 @@
+{
+  "image": "12_custom_zmm_contract_monitor.png",
+  "detections": [
+    {
+      "text": "Menu Edit Goto Extras System Help",
+      "bounding_box": [
+        0,
+        1,
+        323,
+        32
+      ],
+      "confidence": 0.9849
+    },
+    {
+      "text": "T-Code: ZMM_CONT",
+      "bounding_box": [
+        1221,
+        35,
+        1440,
+        68
+      ],
+      "confidence": 0.971
+    },
+    {
+      "text": "Custom Contract Release Monitor",
+      "bounding_box": [
+        0,
+        50,
+        464,
+        77
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Custom transaction: ZMM_CONTRACT_MON (synthetic example)",
+      "bounding_box": [
+        0,
+        101,
+        618,
+        130
+      ],
+      "confidence": 0.9996
+    },
+    {
+      "text": "Release Strategy",
+      "bounding_box": [
+        0,
+        149,
+        132,
+        176
+      ],
+      "confidence": 0.9862
+    },
+    {
+      "text": "Approval Group",
+      "bounding_box": [
+        305,
+        149,
+        436,
+        179
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Plant",
+      "bounding_box": [
+        610,
+        148,
+        663,
+        175
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "ZC1",
+      "bounding_box": [
+        0,
+        180,
+        48,
+        209
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "PROC_MGR",
+      "bounding_box": [
+        313,
+        180,
+        425,
+        211
+      ],
+      "confidence": 0.9988
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        620,
+        178,
+        678,
+        208
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Contract",
+      "bounding_box": [
+        0,
+        264,
+        76,
+        289
+      ],
+      "confidence": 0.9504
+    },
+    {
+      "text": "Type",
+      "bounding_box": [
+        150,
+        264,
+        203,
+        295
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Vendor",
+      "bounding_box": [
+        245,
+        266,
+        316,
+        292
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Release Status",
+      "bounding_box": [
+        424,
+        265,
+        552,
+        289
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Approver",
+      "bounding_box": [
+        623,
+        264,
+        710,
+        292
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Next Action",
+      "bounding_box": [
+        799,
+        263,
+        907,
+        287
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "00000005",
+      "bounding_box": [
+        0,
+        306,
+        85,
+        331
+      ],
+      "confidence": 0.9995
+    },
+    {
+      "text": "ZMK",
+      "bounding_box": [
+        149,
+        306,
+        198,
+        333
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "SF00011080",
+      "bounding_box": [
+        246,
+        307,
+        347,
+        331
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Pending",
+      "bounding_box": [
+        421,
+        305,
+        492,
+        334
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "PROC_MGR",
+      "bounding_box": [
+        623,
+        304,
+        716,
+        332
+      ],
+      "confidence": 0.9995
+    },
+    {
+      "text": "Review",
+      "bounding_box": [
+        799,
+        304,
+        866,
+        330
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "00000006",
+      "bounding_box": [
+        0,
+        369,
+        82,
+        393
+      ],
+      "confidence": 0.9957
+    },
+    {
+      "text": "ZWK",
+      "bounding_box": [
+        145,
+        368,
+        195,
+        395
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "SF00011081",
+      "bounding_box": [
+        244,
+        371,
+        344,
+        392
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Blocked",
+      "bounding_box": [
+        421,
+        368,
+        489,
+        394
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "FIN_APPR",
+      "bounding_box": [
+        623,
+        367,
+        703,
+        395
+      ],
+      "confidence": 0.9976
+    },
+    {
+      "text": "Resolve hold",
+      "bounding_box": [
+        803,
+        368,
+        909,
+        392
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "00000007",
+      "bounding_box": [
+        0,
+        431,
+        79,
+        455
+      ],
+      "confidence": 0.9686
+    },
+    {
+      "text": "MK",
+      "bounding_box": [
+        142,
+        431,
+        179,
+        456
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "SF00011082",
+      "bounding_box": [
+        239,
+        432,
+        340,
+        453
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Released",
+      "bounding_box": [
+        418,
+        430,
+        496,
+        455
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "PROC_MGR",
+      "bounding_box": [
+        625,
+        431,
+        716,
+        456
+      ],
+      "confidence": 0.9992
+    },
+    {
+      "text": "None",
+      "bounding_box": [
+        802,
+        430,
+        854,
+        456
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

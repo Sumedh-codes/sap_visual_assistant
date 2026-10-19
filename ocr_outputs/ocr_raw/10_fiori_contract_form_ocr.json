@@ -1,0 +1,175 @@
+{
+  "image": "10_fiori_contract_form.png",
+  "detections": [
+    {
+      "text": "Create Purchase Contract",
+      "bounding_box": [
+        0,
+        10,
+        357,
+        44
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Supplier",
+      "bounding_box": [
+        0,
+        80,
+        76,
+        109
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Purchasing Organization",
+      "bounding_box": [
+        417,
+        78,
+        613,
+        105
+      ],
+      "confidence": 0.9926
+    },
+    {
+      "text": "Purchasing Group",
+      "bounding_box": [
+        839,
+        78,
+        987,
+        102
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "SF00011080",
+      "bounding_box": [
+        0,
+        112,
+        125,
+        140
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        423,
+        110,
+        483,
+        141
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "P11",
+      "bounding_box": [
+        847,
+        107,
+        897,
+        139
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "ompany Code",
+      "bounding_box": [
+        0,
+        187,
+        120,
+        217
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Contract Type",
+      "bounding_box": [
+        342,
+        191,
+        460,
+        216
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Validity Start",
+      "bounding_box": [
+        688,
+        188,
+        805,
+        213
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "1000",
+      "bounding_box": [
+        0,
+        220,
+        55,
+        250
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "MK",
+      "bounding_box": [
+        348,
+        221,
+        393,
+        253
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "01.10.2026",
+      "bounding_box": [
+        700,
+        221,
+        818,
+        246
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "alidity End",
+      "bounding_box": [
+        0,
+        298,
+        91,
+        327
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "30.09.2027",
+      "bounding_box": [
+        0,
+        334,
+        108,
+        360
+      ],
+      "confidence": 0.9987
+    },
+    {
+      "text": "Check",
+      "bounding_box": [
+        0,
+        414,
+        62,
+        443
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Save Draft",
+      "bounding_box": [
+        143,
+        416,
+        250,
+        441
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "image": "09_fiori_purchasing_launchpad.png",
+  "detections": [
+    {
+      "text": "urchasing Overview",
+      "bounding_box": [
+        0,
+        12,
+        288,
+        39
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "Manage Purchase",
+      "bounding_box": [
+        114,
+        147,
+        320,
+        174
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Create Purchase",
+      "bounding_box": [
+        590,
+        146,
+        776,
+        172
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Manage RFQs",
+      "bounding_box": [
+        1058,
+        144,
+        1214,
+        173
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Orders",
+      "bounding_box": [
+        112,
+        177,
+        196,
+        205
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Requisition",
+      "bounding_box": [
+        589,
+        179,
+        720,
+        206
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Sourcing",
+      "bounding_box": [
+        1058,
+        175,
+        1165,
+        205
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Open application →",
+      "bounding_box": [
+        20,
+        252,
+        196,
+        276
+      ],
+      "confidence": 0.9886
+    },
+    {
+      "text": "Open application →",
+      "bounding_box": [
+        507,
+        257,
+        672,
+        277
+      ],
+      "confidence": 0.9722
+    },
+    {
+      "text": "Open application →",
+      "bounding_box": [
+        983,
+        255,
+        1150,
+        276
+      ],
+      "confidence": 0.9954
+    },
+    {
+      "text": "Manage Purchase",
+      "bounding_box": [
+        110,
+        439,
+        320,
+        465
+      ],
+      "confidence": 0.9861
+    },
+    {
+      "text": "Supplier",
+      "bounding_box": [
+        590,
+        439,
+        692,
+        467
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Monitor Items",
+      "bounding_box": [
+        1077,
+        441,
+        1242,
+        462
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Contracts",
+      "bounding_box": [
+        109,
+        470,
+        226,
+        496
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Evaluation",
+      "bounding_box": [
+        591,
+        470,
+        716,
+        497
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Delivery",
+      "bounding_box": [
+        1078,
+        472,
+        1181,
+        500
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Open application →",
+      "bounding_box": [
+        16,
+        545,
+        194,
+        567
+      ],
+      "confidence": 0.9906
+    },
+    {
+      "text": "Open application →",
+      "bounding_box": [
+        507,
+        547,
+        678,
+        571
+      ],
+      "confidence": 0.9806
+    },
+    {
+      "text": "Open application →",
+      "bounding_box": [
+        996,
+        550,
+        1175,
+        572
+      ],
+      "confidence": 0.9929
+    }
+  ]
+}

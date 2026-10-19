@@ -1,0 +1,75 @@
+{
+  "image": "07_error_popup_missing_purch_org.png",
+  "detections": [
+    {
+      "text": "enu Edit Goto Extras System Help",
+      "bounding_box": [
+        0,
+        1,
+        314,
+        29
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Create Purchase Order",
+      "bounding_box": [
+        0,
+        49,
+        309,
+        82
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "T-Code: ME21N",
+      "bounding_box": [
+        1224,
+        39,
+        1389,
+        70
+      ],
+      "confidence": 0.9897
+    },
+    {
+      "text": "Error",
+      "bounding_box": [
+        349,
+        271,
+        425,
+        307
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Purchasing organization is required.",
+      "bounding_box": [
+        352,
+        345,
+        711,
+        373
+      ],
+      "confidence": 0.9991
+    },
+    {
+      "text": "Message ID: ME 083 (illustrative)",
+      "bounding_box": [
+        349,
+        393,
+        623,
+        417
+      ],
+      "confidence": 0.9985
+    },
+    {
+      "text": "Continue",
+      "bounding_box": [
+        947,
+        523,
+        1032,
+        548
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

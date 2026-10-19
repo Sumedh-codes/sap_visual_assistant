@@ -1,0 +1,364 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME51N",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Create Purchase Requisition",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "field",
+      "label": "Document Type",
+      "value": "NB",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        95,
+        127,
+        127
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Group",
+      "value": "P11",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        314,
+        100,
+        457,
+        125
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Plant",
+      "value": "P001",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        589,
+        98,
+        643,
+        126
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME51N",
+      "value": "ME51N",
+      "text": "T-Code: ME51N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1233,
+        39,
+        1393,
+        69
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Item Details",
+      "value": null,
+      "text": "Item Details",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        204,
+        134,
+        234
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Item",
+      "value": "Item",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        244,
+        42,
+        272
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Material / Short Text",
+      "value": "Material / Short Text",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        78,
+        246,
+        256,
+        273
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Quantity",
+      "value": "Quantity",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        484,
+        249,
+        565,
+        278
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Delivery Date",
+      "value": "Delivery Date",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        637,
+        250,
+        764,
+        277
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Plant",
+      "value": "Plant",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        832,
+        249,
+        892,
+        279
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Header - Requisitioner",
+      "value": "Requisitioner",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        975,
+        252,
+        1100,
+        278
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Item",
+      "value": "10",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        287,
+        42,
+        316
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Material / Short Text",
+      "value": "RM-1001 - Raw material A",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        76,
+        287,
+        275,
+        316
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Quantity",
+      "value": "500 KG",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        480,
+        289,
+        547,
+        318
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Delivery Date",
+      "value": "25.10.2026",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        635,
+        293,
+        733,
+        318
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Plant",
+      "value": "P001",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        831,
+        291,
+        886,
+        322
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Requisitioner",
+      "value": "TRAIN_USER",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        974,
+        293,
+        1080,
+        321
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Item",
+      "value": "20",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        333,
+        42,
+        363
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Material / Short Text",
+      "value": "PK-2004 - Packaging",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        72,
+        333,
+        231,
+        363
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Quantity",
+      "value": "200 EA",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        477,
+        335,
+        543,
+        367
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Delivery Date",
+      "value": "28.10.2026",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        633,
+        340,
+        730,
+        365
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Plant",
+      "value": "P001",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        831,
+        340,
+        886,
+        370
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Requisitioner",
+      "value": "TRAIN_USER",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        977,
+        343,
+        1080,
+        368
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Check",
+      "value": null,
+      "text": "Check",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        648,
+        148,
+        706
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Save",
+      "value": null,
+      "text": "Save",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1056,
+        648,
+        1198,
+        706
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

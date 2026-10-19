@@ -1,0 +1,238 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "unreadable"
+  },
+  "screen_title": {
+    "value": "Create Purchase Contract",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Supplier",
+      "value": null,
+      "text": "Supplier",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        80,
+        76,
+        109
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Supplier",
+      "value": "SF00011080",
+      "text": "SF00011080",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        112,
+        125,
+        140
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Purchasing Organization",
+      "value": null,
+      "text": "Purchasing Organization",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        417,
+        78,
+        613,
+        105
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Organization",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        423,
+        110,
+        483,
+        141
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Purchasing Group",
+      "value": null,
+      "text": "Purchasing Group",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        839,
+        78,
+        987,
+        102
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Group",
+      "value": "P11",
+      "text": "P11",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        847,
+        107,
+        897,
+        139
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Company Code",
+      "value": null,
+      "text": "Company Code",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        187,
+        120,
+        217
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Company Code",
+      "value": "1000",
+      "text": "1000",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        220,
+        55,
+        250
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Contract Type",
+      "value": null,
+      "text": "Contract Type",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        342,
+        191,
+        460,
+        216
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Contract Type",
+      "value": "MK",
+      "text": "MK",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        348,
+        221,
+        393,
+        253
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Validity Start",
+      "value": null,
+      "text": "Validity Start",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        688,
+        188,
+        805,
+        213
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Validity Start",
+      "value": "01.10.2026",
+      "text": "01.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        700,
+        221,
+        818,
+        246
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Validity End",
+      "value": null,
+      "text": "Validity End",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        298,
+        91,
+        327
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Validity End",
+      "value": "30.09.2027",
+      "text": "30.09.2027",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        334,
+        108,
+        360
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Check",
+      "value": null,
+      "text": "Check",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        414,
+        62,
+        443
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Save Draft",
+      "value": null,
+      "text": "Save Draft",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        143,
+        416,
+        250,
+        441
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

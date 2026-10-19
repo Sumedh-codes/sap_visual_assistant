@@ -1,0 +1,475 @@
+{
+  "image": "06_me2n_alv_purchase_order_list.png",
+  "detections": [
+    {
+      "text": "Menu Edit Goto Extras System Help",
+      "bounding_box": [
+        0,
+        11,
+        316,
+        37
+      ],
+      "confidence": 0.9907
+    },
+    {
+      "text": "T-Code: ME2N",
+      "bounding_box": [
+        1220,
+        40,
+        1370,
+        69
+      ],
+      "confidence": 0.9688
+    },
+    {
+      "text": "Purchase Orders: List Display",
+      "bounding_box": [
+        0,
+        56,
+        400,
+        86
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Selection Summary: Purchasing Organization P001 | Company Code 1000",
+      "bounding_box": [
+        0,
+        103,
+        713,
+        139
+      ],
+      "confidence": 0.9945
+    },
+    {
+      "text": "ber",
+      "bounding_box": [
+        72,
+        166,
+        106,
+        192
+      ],
+      "confidence": 0.9942
+    },
+    {
+      "text": "Vendor",
+      "bounding_box": [
+        148,
+        165,
+        219,
+        194
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Doc. Date",
+      "bounding_box": [
+        308,
+        163,
+        403,
+        193
+      ],
+      "confidence": 0.9666
+    },
+    {
+      "text": "Currency",
+      "bounding_box": [
+        445,
+        162,
+        529,
+        191
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Net Value",
+      "bounding_box": [
+        546,
+        162,
+        633,
+        187
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Status",
+      "bounding_box": [
+        700,
+        160,
+        767,
+        186
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Purch. Group",
+      "bounding_box": [
+        852,
+        160,
+        971,
+        185
+      ],
+      "confidence": 0.9988
+    },
+    {
+      "text": "4500003210",
+      "bounding_box": [
+        0,
+        207,
+        98,
+        231
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "SF00011080",
+      "bounding_box": [
+        148,
+        206,
+        247,
+        233
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "12.10.2026",
+      "bounding_box": [
+        307,
+        203,
+        404,
+        234
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "INR",
+      "bounding_box": [
+        443,
+        202,
+        484,
+        231
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "62,500.00",
+      "bounding_box": [
+        547,
+        203,
+        629,
+        228
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Open",
+      "bounding_box": [
+        700,
+        200,
+        756,
+        230
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P11",
+      "bounding_box": [
+        849,
+        199,
+        892,
+        227
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "500003211",
+      "bounding_box": [
+        0,
+        260,
+        94,
+        287
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "SF00011081",
+      "bounding_box": [
+        147,
+        263,
+        245,
+        287
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "12.10.2026",
+      "bounding_box": [
+        307,
+        258,
+        405,
+        288
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "INR",
+      "bounding_box": [
+        444,
+        258,
+        485,
+        286
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "18,750.00",
+      "bounding_box": [
+        548,
+        259,
+        631,
+        284
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Released",
+      "bounding_box": [
+        702,
+        256,
+        783,
+        285
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P11",
+      "bounding_box": [
+        850,
+        256,
+        894,
+        284
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "500003212",
+      "bounding_box": [
+        0,
+        318,
+        90,
+        344
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "SF00011082",
+      "bounding_box": [
+        145,
+        319,
+        245,
+        344
+      ],
+      "confidence": 0.999
+    },
+    {
+      "text": "13.10.2026",
+      "bounding_box": [
+        310,
+        317,
+        405,
+        343
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "INR",
+      "bounding_box": [
+        444,
+        314,
+        485,
+        344
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "41,200.00",
+      "bounding_box": [
+        549,
+        315,
+        632,
+        341
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Blocked",
+      "bounding_box": [
+        703,
+        309,
+        776,
+        342
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P12",
+      "bounding_box": [
+        852,
+        311,
+        897,
+        342
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "500003213",
+      "bounding_box": [
+        0,
+        374,
+        89,
+        399
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "SF00011080",
+      "bounding_box": [
+        144,
+        375,
+        245,
+        399
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "14.10.2026",
+      "bounding_box": [
+        311,
+        374,
+        406,
+        399
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "INR",
+      "bounding_box": [
+        445,
+        372,
+        486,
+        400
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "9,250.00",
+      "bounding_box": [
+        548,
+        371,
+        626,
+        399
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Open",
+      "bounding_box": [
+        706,
+        369,
+        762,
+        399
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P11",
+      "bounding_box": [
+        853,
+        368,
+        900,
+        399
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "500003214",
+      "bounding_box": [
+        0,
+        433,
+        91,
+        457
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "SF00011083",
+      "bounding_box": [
+        147,
+        432,
+        247,
+        457
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "14.10.2026",
+      "bounding_box": [
+        311,
+        428,
+        406,
+        455
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "INR",
+      "bounding_box": [
+        447,
+        429,
+        486,
+        455
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "33,800.00",
+      "bounding_box": [
+        551,
+        428,
+        636,
+        453
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "In Process",
+      "bounding_box": [
+        710,
+        427,
+        795,
+        451
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P10",
+      "bounding_box": [
+        856,
+        426,
+        900,
+        453
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "elect a row to display document details.",
+      "bounding_box": [
+        0,
+        525,
+        313,
+        554
+      ],
+      "confidence": 0.9999
+    }
+  ]
+}

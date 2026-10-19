@@ -1,0 +1,195 @@
+{
+  "image": "08_contract_warning_messages.png",
+  "detections": [
+    {
+      "text": "Menu Edit Goto Extras System Help",
+      "bounding_box": [
+        0,
+        4,
+        322,
+        30
+      ],
+      "confidence": 0.9877
+    },
+    {
+      "text": "Contract: Check Messages",
+      "bounding_box": [
+        0,
+        47,
+        364,
+        80
+      ],
+      "confidence": 0.9938
+    },
+    {
+      "text": "T-Code: ME31K",
+      "bounding_box": [
+        1224,
+        42,
+        1374,
+        69
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Warning",
+      "bounding_box": [
+        7,
+        114,
+        113,
+        149
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Validity end date is earlier than expected planning horizon.",
+      "bounding_box": [
+        8,
+        151,
+        540,
+        180
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Type",
+      "bounding_box": [
+        0,
+        238,
+        45,
+        270
+      ],
+      "confidence": 0.973
+    },
+    {
+      "text": "Message",
+      "bounding_box": [
+        78,
+        240,
+        165,
+        268
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Context",
+      "bounding_box": [
+        659,
+        239,
+        739,
+        267
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Status",
+      "bounding_box": [
+        954,
+        239,
+        1023,
+        268
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "V",
+      "bounding_box": [
+        1,
+        286,
+        9,
+        301
+      ],
+      "confidence": 0.9747
+    },
+    {
+      "text": "Validity period should be reviewed",
+      "bounding_box": [
+        78,
+        281,
+        340,
+        305
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Contract 200000005",
+      "bounding_box": [
+        662,
+        283,
+        822,
+        307
+      ],
+      "confidence": 0.9997
+    },
+    {
+      "text": "Open",
+      "bounding_box": [
+        956,
+        281,
+        1011,
+        311
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Purchasing group P11 assigned",
+      "bounding_box": [
+        76,
+        340,
+        316,
+        366
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Header data",
+      "bounding_box": [
+        662,
+        343,
+        764,
+        367
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Informational",
+      "bounding_box": [
+        962,
+        343,
+        1070,
+        368
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Draft data validated",
+      "bounding_box": [
+        75,
+        399,
+        233,
+        425
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Contract item overview",
+      "bounding_box": [
+        664,
+        401,
+        847,
+        427
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Success",
+      "bounding_box": [
+        963,
+        403,
+        1035,
+        429
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

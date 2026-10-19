@@ -1,0 +1,168 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "uncertain"
+  },
+  "screen_title": {
+    "value": "Create Purchase Contract",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "SAP Fiori Launchpad | Sample Training System",
+      "value": null,
+      "text": "SAP Fiori Launchpad | Sample Training System",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        0,
+        1235,
+        48
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Create Purchase Contract",
+      "value": null,
+      "text": "Create Purchase Contract",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        64,
+        500,
+        112
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Supplier",
+      "value": "SF00011080",
+      "text": "Supplier: SF00011080",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        120,
+        355,
+        160
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Organization",
+      "value": "P001",
+      "text": "Purchasing Organization: P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        405,
+        120,
+        760,
+        160
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Group",
+      "value": "P11",
+      "text": "Purchasing Group: P11",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        770,
+        120,
+        1128,
+        160
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Company Code",
+      "value": "1000",
+      "text": "Company Code: 1000",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        188,
+        310,
+        226
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Contract Type",
+      "value": "MK",
+      "text": "Contract Type: MK",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        324,
+        188,
+        610,
+        226
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Validity Start",
+      "value": "01.10.2026",
+      "text": "Validity Start: 01.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        650,
+        188,
+        1020,
+        226
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Validity End",
+      "value": "30.09.2027",
+      "text": "Validity End: 30.09.2027",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        246,
+        355,
+        286
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Check",
+      "value": null,
+      "text": "Check",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        312,
+        136,
+        350
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Save Draft",
+      "value": null,
+      "text": "Save Draft",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        156,
+        312,
+        276,
+        350
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

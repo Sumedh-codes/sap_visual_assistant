@@ -1,0 +1,96 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME21N",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Create Purchase Order",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "enu Edit Goto Extras System Help",
+      "value": null,
+      "text": "enu Edit Goto Extras System Help",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        1,
+        314,
+        29
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Create Purchase Order",
+      "value": null,
+      "text": "Create Purchase Order",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        49,
+        309,
+        82
+      ]
+    },
+    {
+      "type": "label",
+      "label": "T-Code: ME21N",
+      "value": null,
+      "text": "T-Code: ME21N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1224,
+        39,
+        1389,
+        70
+      ]
+    },
+    {
+      "type": "message",
+      "label": "Error",
+      "value": null,
+      "text": "Purchasing organization is required.\nMessage ID: ME 083 (illustrative)",
+      "severity": "error",
+      "status": "observed",
+      "bounding_box": [
+        349,
+        271,
+        711,
+        417
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Continue",
+      "value": null,
+      "text": "Continue",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        947,
+        523,
+        1032,
+        548
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "Purchasing organization",
+      "value": null,
+      "reason": "unreadable",
+      "bounding_box": [
+        352,
+        345,
+        711,
+        373
+      ]
+    }
+  ]
+}

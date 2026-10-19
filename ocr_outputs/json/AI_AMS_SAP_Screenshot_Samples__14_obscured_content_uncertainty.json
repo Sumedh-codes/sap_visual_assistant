@@ -1,0 +1,331 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": "ME53N",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Display Purchase Requisition",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Menu Edit Goto Extras System Help",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        5,
+        317,
+        31
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Display Purchase Requisition",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        48,
+        394,
+        80
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME53N",
+      "value": null,
+      "text": "T-Code: ME53N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1216,
+        40,
+        1377,
+        66
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Requisition",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        99,
+        89,
+        128
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Requisition",
+      "value": "10001234",
+      "text": "10001234",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        130,
+        99,
+        158
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Plant",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        324,
+        99,
+        379,
+        130
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Plant",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        332,
+        131,
+        390,
+        161
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Item",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        213,
+        38,
+        241
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Material",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        73,
+        214,
+        152,
+        239
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Short Text",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        228,
+        216,
+        321,
+        240
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Quantity",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        535,
+        213,
+        615,
+        241
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Delivery Date",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        690,
+        213,
+        813,
+        238
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Material",
+      "value": "RM-1001",
+      "text": "RM-1001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        69,
+        252,
+        146,
+        280
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Short Text",
+      "value": "Raw material A",
+      "text": "Raw material A",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        225,
+        257,
+        346,
+        281
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Quantity",
+      "value": "50",
+      "text": "50",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        535,
+        255,
+        566,
+        281
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 10 - Delivery Date",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "unreadable",
+      "bounding_box": [
+        590,
+        283,
+        915,
+        307
+      ]
+    },
+    {
+      "type": "message",
+      "label": null,
+      "value": null,
+      "text": "[Content obscured / unreadable]",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        590,
+        283,
+        915,
+        307
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Material",
+      "value": "PK-2004",
+      "text": "PK-2004",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        66,
+        298,
+        138,
+        324
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Short Text",
+      "value": "Packaging material",
+      "text": "Packaging material",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        225,
+        301,
+        373,
+        325
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Quantity",
+      "value": "20",
+      "text": "20",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        535,
+        300,
+        566,
+        326
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item 20 - Delivery Date",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "uncertain",
+      "bounding_box": [
+        690,
+        298,
+        813,
+        324
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "Item 10 - Delivery Date",
+      "value": null,
+      "reason": "unreadable",
+      "bounding_box": [
+        590,
+        283,
+        915,
+        307
+      ]
+    },
+    {
+      "label": "Item 20 - Delivery Date",
+      "value": null,
+      "reason": "unreadable",
+      "bounding_box": [
+        690,
+        298,
+        813,
+        324
+      ]
+    }
+  ]
+}

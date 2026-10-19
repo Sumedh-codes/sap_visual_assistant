@@ -1,0 +1,1115 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME23N",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Purchase Order History: Dense Overview",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Menu Edit Goto Extras System Help",
+      "value": null,
+      "text": "Menu Edit Goto Extras System Help",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        11,
+        321,
+        34
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME23N",
+      "value": "ME23N",
+      "text": "T-Code: ME23N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1213,
+        40,
+        1368,
+        67
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Item",
+      "value": null,
+      "text": "Item",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        127,
+        116,
+        177,
+        142
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Material",
+      "value": null,
+      "text": "Material",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        184,
+        116,
+        263,
+        141
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Plant",
+      "value": null,
+      "text": "Plant",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        288,
+        115,
+        342,
+        142
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Qty",
+      "value": null,
+      "text": "Qty",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        352,
+        114,
+        394,
+        142
+      ]
+    },
+    {
+      "type": "label",
+      "label": "UoM",
+      "value": null,
+      "text": "UoM",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        407,
+        113,
+        455,
+        139
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Amount",
+      "value": null,
+      "text": "Amount",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        456,
+        113,
+        528,
+        138
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Curr",
+      "value": null,
+      "text": "Curr",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        557,
+        113,
+        604,
+        139
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Doc. Date",
+      "value": null,
+      "text": "Doc. Date",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        612,
+        113,
+        702,
+        137
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Movement",
+      "value": null,
+      "text": "Movement",
+      "severity": null,
+      "status": "inferred",
+      "bounding_box": [
+        716,
+        111,
+        788,
+        136
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Status",
+      "value": null,
+      "text": "Status",
+      "severity": null,
+      "status": "inferred",
+      "bounding_box": [
+        788,
+        111,
+        875,
+        136
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item (Item 10)",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        127,
+        156,
+        158,
+        181
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material (Item 10)",
+      "value": "RM-1001",
+      "text": "RM-1001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        183,
+        156,
+        258,
+        181
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant (Item 10)",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        289,
+        156,
+        336,
+        183
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Qty (Item 10)",
+      "value": "500",
+      "text": "500",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        353,
+        155,
+        394,
+        182
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "UoM (Item 10)",
+      "value": "KG",
+      "text": "KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        408,
+        155,
+        442,
+        181
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Amount (Item 10)",
+      "value": "62500.00",
+      "text": "62500.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        460,
+        156,
+        533,
+        178
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Curr (Item 10)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        559,
+        154,
+        596,
+        179
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Doc. Date (Item 10)",
+      "value": "12.10.26",
+      "text": "12.10.26",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        612,
+        153,
+        687,
+        178
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Movement (Item 10)",
+      "value": "101",
+      "text": "101",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        714,
+        152,
+        756,
+        179
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (Item 10)",
+      "value": "Posted",
+      "text": "Posted",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        810,
+        150,
+        874,
+        176
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "PO - PurchaseOrder (Item 20)",
+      "value": "4500003210",
+      "text": "4500003210",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        202,
+        104,
+        226
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item (Item 20)",
+      "value": "20",
+      "text": "20",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        125,
+        203,
+        158,
+        228
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material (Item 20)",
+      "value": "PK-2004",
+      "text": "PK-2004",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        183,
+        204,
+        255,
+        229
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant (Item 20)",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        289,
+        204,
+        337,
+        230
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Qty (Item 20)",
+      "value": "200",
+      "text": "200",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        354,
+        204,
+        394,
+        228
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "UoM (Item 20)",
+      "value": "EA",
+      "text": "EA",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        409,
+        202,
+        442,
+        228
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Amount (Item 20)",
+      "value": "3700.00",
+      "text": "3700.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        460,
+        202,
+        528,
+        227
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Curr (Item 20)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        201,
+        597,
+        226
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Doc. Date (Item 20)",
+      "value": "12.10.26",
+      "text": "12.10.26",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        613,
+        200,
+        688,
+        225
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Movement (Item 20)",
+      "value": "101",
+      "text": "101",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        715,
+        198,
+        757,
+        226
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (Item 20)",
+      "value": "Posted",
+      "text": "Posted",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        810,
+        198,
+        875,
+        224
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "PO - PurchaseOrder (Item 10)",
+      "value": "4500003211",
+      "text": "4500003211",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        250,
+        102,
+        271
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item (Item 10)",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        124,
+        249,
+        157,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material (Item 10)",
+      "value": "RM-1007",
+      "text": "RM-1007",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        182,
+        249,
+        260,
+        276
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant (Item 10)",
+      "value": "P002",
+      "text": "P002",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        290,
+        250,
+        338,
+        276
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Qty (Item 10)",
+      "value": "100",
+      "text": "100",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        356,
+        251,
+        395,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "UoM (Item 10)",
+      "value": "KG",
+      "text": "KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        411,
+        249,
+        445,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Amount (Item 10)",
+      "value": "9200.00",
+      "text": "9200.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        461,
+        247,
+        530,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Curr (Item 10)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        563,
+        248,
+        599,
+        273
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Doc. Date (Item 10)",
+      "value": "13.10.26",
+      "text": "13.10.26",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        615,
+        246,
+        690,
+        274
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Movement (Item 10)",
+      "value": "101",
+      "text": "101",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        716,
+        245,
+        759,
+        273
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (Item 10)",
+      "value": "Open",
+      "text": "Open",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        811,
+        244,
+        867,
+        274
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "PO - PurchaseOrder (Item 10)",
+      "value": "500003212",
+      "text": "500003212",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        296,
+        103,
+        320
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item (Item 10)",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        125,
+        296,
+        157,
+        322
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material (Item 10)",
+      "value": "CHEM-04",
+      "text": "CHEM-04",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        185,
+        297,
+        262,
+        322
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant (Item 10)",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        292,
+        297,
+        341,
+        323
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Qty (Item 10)",
+      "value": "50",
+      "text": "50",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        358,
+        297,
+        390,
+        322
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "UoM (Item 10)",
+      "value": "L",
+      "text": "L",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        414,
+        297,
+        437,
+        321
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Amount (Item 10)",
+      "value": "10500.00",
+      "text": "10500.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        466,
+        295,
+        542,
+        320
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Curr (Item 10)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        566,
+        294,
+        603,
+        319
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Doc. Date (Item 10)",
+      "value": "13.10.26",
+      "text": "13.10.26",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        619,
+        294,
+        694,
+        319
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Movement (Item 10)",
+      "value": "102",
+      "text": "102",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        720,
+        292,
+        762,
+        320
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (Item 10)",
+      "value": "Reversed",
+      "text": "Reversed",
+      "severity": "info",
+      "status": "observed",
+      "bounding_box": [
+        815,
+        291,
+        900,
+        319
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "PO - PurchaseOrder (Item 10)",
+      "value": "500003213",
+      "text": "500003213",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        347,
+        103,
+        368
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item (Item 10)",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        126,
+        345,
+        160,
+        371
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material (Item 10)",
+      "value": "RM-1001",
+      "text": "RM-1001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        187,
+        346,
+        263,
+        371
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant (Item 10)",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        295,
+        346,
+        344,
+        372
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Qty (Item 10)",
+      "value": "150",
+      "text": "150",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        361,
+        345,
+        403,
+        372
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "UoM (Item 10)",
+      "value": "KG",
+      "text": "KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        419,
+        345,
+        452,
+        371
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Amount (Item 10)",
+      "value": "18750.00",
+      "text": "18750.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        470,
+        344,
+        546,
+        369
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Curr (Item 10)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        570,
+        343,
+        607,
+        368
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Doc. Date (Item 10)",
+      "value": "14.10.26",
+      "text": "14.10.26",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        624,
+        342,
+        699,
+        367
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Movement (Item 10)",
+      "value": "101",
+      "text": "101",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        725,
+        340,
+        768,
+        368
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (Item 10)",
+      "value": "Posted",
+      "text": "Posted",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        819,
+        340,
+        886,
+        369
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "PO - PurchaseOrder (Item 10)",
+      "value": "500003214",
+      "text": "500003214",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        394,
+        106,
+        418
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Item (Item 10)",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        129,
+        394,
+        162,
+        420
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Material (Item 10)",
+      "value": "PK-2004",
+      "text": "PK-2004",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        189,
+        394,
+        261,
+        419
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Plant (Item 10)",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        297,
+        393,
+        347,
+        419
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Qty (Item 10)",
+      "value": "900",
+      "text": "900",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        364,
+        392,
+        406,
+        419
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "UoM (Item 10)",
+      "value": "EA",
+      "text": "EA",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        422,
+        392,
+        455,
+        418
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Amount (Item 10)",
+      "value": "16650.00",
+      "text": "16650.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        472,
+        389,
+        550,
+        417
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Curr (Item 10)",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        574,
+        390,
+        613,
+        416
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Doc. Date (Item 10)",
+      "value": "14.10.26",
+      "text": "14.10.26",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        628,
+        390,
+        705,
+        415
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Movement (Item 10)",
+      "value": "101",
+      "text": "101",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        731,
+        388,
+        773,
+        415
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (Item 10)",
+      "value": "Open",
+      "text": "Open",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        826,
+        389,
+        881,
+        416
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "PO (first/top row)",
+      "value": null,
+      "reason": "redacted",
+      "bounding_box": [
+        0,
+        140,
+        104,
+        181
+      ]
+    },
+    {
+      "label": "Movement Status header",
+      "value": null,
+      "reason": "ambiguous_association",
+      "bounding_box": [
+        716,
+        111,
+        875,
+        136
+      ]
+    }
+  ]
+}

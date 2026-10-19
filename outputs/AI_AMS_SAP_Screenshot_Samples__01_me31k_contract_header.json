@@ -1,0 +1,350 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME31K",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Create Contract: Header Data",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "SAP Easy Access | Training System (Synthetic)",
+      "value": null,
+      "text": "SAP Easy Access | Training System (Synthetic)",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        0,
+        1365,
+        48
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Create Contract: Header Data",
+      "value": null,
+      "text": "Create Contract: Header Data",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        64,
+        560,
+        110
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME31K",
+      "value": "ME31K",
+      "text": "T-Code: ME31K",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1060,
+        64,
+        1296,
+        110
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Contract Type",
+      "value": null,
+      "text": "Contract Type",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        124,
+        240,
+        156
+      ]
+    },
+    {
+      "type": "button",
+      "label": "MK - Quantity",
+      "value": null,
+      "text": "MK - Quantity",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        152,
+        180,
+        188
+      ]
+    },
+    {
+      "type": "button",
+      "label": "WK - Value",
+      "value": null,
+      "text": "WK - Value",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        200,
+        152,
+        356,
+        188
+      ]
+    },
+    {
+      "type": "button",
+      "label": "ZMK - Custom Qty",
+      "value": null,
+      "text": "ZMK - Custom Qty",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        380,
+        152,
+        536,
+        188
+      ]
+    },
+    {
+      "type": "button",
+      "label": "ZWK - Custom Value",
+      "value": null,
+      "text": "ZWK - Custom Value",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        560,
+        152,
+        716,
+        188
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Vendor",
+      "value": null,
+      "text": "Vendor",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        196,
+        120,
+        224
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Vendor",
+      "value": "SF00011080",
+      "text": "SF00011080",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        224,
+        350,
+        258
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Purchasing Organization",
+      "value": null,
+      "text": "Purchasing Organization",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        196,
+        660,
+        224
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Organization",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        224,
+        620,
+        258
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Purchasing Group",
+      "value": null,
+      "text": "Purchasing Group",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        720,
+        196,
+        900,
+        224
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Group",
+      "value": "P11",
+      "text": "P11",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        720,
+        224,
+        940,
+        258
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Company Code",
+      "value": null,
+      "text": "Company Code",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        268,
+        180,
+        296
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Company Code",
+      "value": "1000",
+      "text": "1000",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        296,
+        260,
+        328
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Validity Start",
+      "value": null,
+      "text": "Validity Start",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        300,
+        268,
+        460,
+        296
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Validity Start",
+      "value": "01.10.2026",
+      "text": "01.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        300,
+        296,
+        520,
+        328
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Validity End",
+      "value": null,
+      "text": "Validity End",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        540,
+        268,
+        700,
+        296
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Validity End",
+      "value": "30.09.2027",
+      "text": "30.09.2027",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        540,
+        296,
+        760,
+        328
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Reference process",
+      "value": "PR → RFQ → Contract → Purchase Order",
+      "text": "Reference process: PR → RFQ → Contract → Purchase Order",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        340,
+        760,
+        368
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Header Details",
+      "value": null,
+      "text": "Header Details",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        640,
+        160,
+        676
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Item Overview",
+      "value": null,
+      "text": "Item Overview",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        180,
+        640,
+        320,
+        676
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Save",
+      "value": null,
+      "text": "Save",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1180,
+        640,
+        1310,
+        676
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

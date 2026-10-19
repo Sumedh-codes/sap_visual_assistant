@@ -1,0 +1,672 @@
+{
+  "screen_type": "SAP_GUI",
+  "transaction_code": {
+    "value": "ME2N",
+    "status": "observed"
+  },
+  "screen_title": {
+    "value": "Purchase Orders: List Display",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "SAP Easy Access | Training System (Synthetic)",
+      "value": "SAP Easy Access | Training System (Synthetic)",
+      "text": "SAP Easy Access | Training System (Synthetic)",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        0,
+        1365,
+        40
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Purchase Orders: List Display",
+      "value": "Purchase Orders: List Display",
+      "text": "Purchase Orders: List Display",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        64,
+        520,
+        106
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME2N",
+      "value": "ME2N",
+      "text": "T-Code: ME2N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1100,
+        56,
+        1320,
+        100
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Selection Summary: Purchasing Organization P001 | Company Code 1000",
+      "value": "Selection Summary: Purchasing Organization P001 | Company Code 1000",
+      "text": "Selection Summary: Purchasing Organization P001 | Company Code 1000",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        112,
+        900,
+        144
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "PO Number (header)",
+      "value": null,
+      "text": "PO Number",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        40,
+        150,
+        180,
+        180
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Vendor (header)",
+      "value": null,
+      "text": "Vendor",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        180,
+        150,
+        320,
+        180
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Doc. Date (header)",
+      "value": null,
+      "text": "Doc. Date",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        320,
+        150,
+        420,
+        180
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Currency (header)",
+      "value": null,
+      "text": "Currency",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        150,
+        490,
+        180
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Net Value (header)",
+      "value": null,
+      "text": "Net Value",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        490,
+        150,
+        600,
+        180
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Status (header)",
+      "value": null,
+      "text": "Status",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        600,
+        150,
+        680,
+        180
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Purch. Group (header)",
+      "value": null,
+      "text": "Purch. Group",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        680,
+        150,
+        760,
+        180
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - PO Number",
+      "value": "4500003210",
+      "text": "4500003210",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        40,
+        180,
+        180,
+        220
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Vendor",
+      "value": "SF00011080",
+      "text": "SF00011080",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        180,
+        180,
+        320,
+        220
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Doc. Date",
+      "value": "12.10.2026",
+      "text": "12.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        320,
+        180,
+        420,
+        220
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Currency",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        180,
+        490,
+        220
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Net Value",
+      "value": "62,500.00",
+      "text": "62,500.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        490,
+        180,
+        600,
+        220
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Status",
+      "value": "Open",
+      "text": "Open",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        600,
+        180,
+        680,
+        220
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Purch. Group",
+      "value": "P11",
+      "text": "P11",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        680,
+        180,
+        760,
+        220
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - PO Number",
+      "value": "4500003211",
+      "text": "4500003211",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        40,
+        220,
+        180,
+        260
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Vendor",
+      "value": "SF00011081",
+      "text": "SF00011081",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        180,
+        220,
+        320,
+        260
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Doc. Date",
+      "value": "12.10.2026",
+      "text": "12.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        320,
+        220,
+        420,
+        260
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Currency",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        220,
+        490,
+        260
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Net Value",
+      "value": "18,750.00",
+      "text": "18,750.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        490,
+        220,
+        600,
+        260
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Status",
+      "value": "Released",
+      "text": "Released",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        600,
+        220,
+        680,
+        260
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Purch. Group",
+      "value": "P11",
+      "text": "P11",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        680,
+        220,
+        760,
+        260
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - PO Number",
+      "value": "4500003212",
+      "text": "4500003212",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        40,
+        260,
+        180,
+        300
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Vendor",
+      "value": "SF00011082",
+      "text": "SF00011082",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        180,
+        260,
+        320,
+        300
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Doc. Date",
+      "value": "13.10.2026",
+      "text": "13.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        320,
+        260,
+        420,
+        300
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Currency",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        260,
+        490,
+        300
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Net Value",
+      "value": "41,200.00",
+      "text": "41,200.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        490,
+        260,
+        600,
+        300
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Status",
+      "value": "Blocked",
+      "text": "Blocked",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        600,
+        260,
+        680,
+        300
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Purch. Group",
+      "value": "P12",
+      "text": "P12",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        680,
+        260,
+        760,
+        300
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - PO Number",
+      "value": "4500003213",
+      "text": "4500003213",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        40,
+        300,
+        180,
+        340
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Vendor",
+      "value": "SF00011080",
+      "text": "SF00011080",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        180,
+        300,
+        320,
+        340
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Doc. Date",
+      "value": "14.10.2026",
+      "text": "14.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        320,
+        300,
+        420,
+        340
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Currency",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        300,
+        490,
+        340
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Net Value",
+      "value": "9,250.00",
+      "text": "9,250.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        490,
+        300,
+        600,
+        340
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Status",
+      "value": "Open",
+      "text": "Open",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        600,
+        300,
+        680,
+        340
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Purch. Group",
+      "value": "P11",
+      "text": "P11",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        680,
+        300,
+        760,
+        340
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 5 - PO Number",
+      "value": "4500003214",
+      "text": "4500003214",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        40,
+        340,
+        180,
+        382
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 5 - Vendor",
+      "value": "SF00011083",
+      "text": "SF00011083",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        180,
+        340,
+        320,
+        382
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 5 - Doc. Date",
+      "value": "14.10.2026",
+      "text": "14.10.2026",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        320,
+        340,
+        420,
+        382
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 5 - Currency",
+      "value": "INR",
+      "text": "INR",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        420,
+        340,
+        490,
+        382
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 5 - Net Value",
+      "value": "33,800.00",
+      "text": "33,800.00",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        490,
+        340,
+        600,
+        382
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 5 - Status",
+      "value": "In Process",
+      "text": "In Process",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        600,
+        340,
+        680,
+        382
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 5 - Purch. Group",
+      "value": "P10",
+      "text": "P10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        680,
+        340,
+        760,
+        382
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Select a row to display document details.",
+      "value": "Select a row to display document details.",
+      "text": "Select a row to display document details.",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        400,
+        600,
+        440
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

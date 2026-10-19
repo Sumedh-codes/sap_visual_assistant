@@ -1,0 +1,365 @@
+{
+  "image": "11_fiori_requisition_items_table.png",
+  "detections": [
+    {
+      "text": "Monitor Purchase Requisition Items",
+      "bounding_box": [
+        0,
+        9,
+        504,
+        42
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "Requisition",
+      "bounding_box": [
+        0,
+        87,
+        100,
+        118
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Item",
+      "bounding_box": [
+        165,
+        91,
+        216,
+        119
+      ],
+      "confidence": 0.9997
+    },
+    {
+      "text": "Material",
+      "bounding_box": [
+        238,
+        90,
+        320,
+        119
+      ],
+      "confidence": 0.9968
+    },
+    {
+      "text": "Short Text",
+      "bounding_box": [
+        373,
+        88,
+        471,
+        119
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Plant",
+      "bounding_box": [
+        683,
+        88,
+        740,
+        116
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Quantity",
+      "bounding_box": [
+        790,
+        89,
+        872,
+        119
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Status",
+      "bounding_box": [
+        926,
+        89,
+        991,
+        116
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "0001234",
+      "bounding_box": [
+        0,
+        132,
+        79,
+        157
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "10",
+      "bounding_box": [
+        163,
+        135,
+        196,
+        161
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "RM-1001",
+      "bounding_box": [
+        236,
+        134,
+        314,
+        162
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Raw material A",
+      "bounding_box": [
+        375,
+        135,
+        497,
+        159
+      ],
+      "confidence": 0.9951
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        683,
+        132,
+        734,
+        159
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "500 KG",
+      "bounding_box": [
+        790,
+        133,
+        854,
+        159
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "Approved",
+      "bounding_box": [
+        925,
+        127,
+        1009,
+        161
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "0001234",
+      "bounding_box": [
+        0,
+        201,
+        75,
+        223
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "20",
+      "bounding_box": [
+        161,
+        202,
+        193,
+        228
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "PK-2004",
+      "bounding_box": [
+        235,
+        203,
+        306,
+        228
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Packaging",
+      "bounding_box": [
+        371,
+        201,
+        458,
+        229
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        683,
+        199,
+        733,
+        226
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "200 EA",
+      "bounding_box": [
+        789,
+        200,
+        853,
+        225
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "In Review",
+      "bounding_box": [
+        927,
+        200,
+        1009,
+        225
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "0001235",
+      "bounding_box": [
+        0,
+        266,
+        73,
+        291
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "10",
+      "bounding_box": [
+        160,
+        269,
+        192,
+        295
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "RM-1007",
+      "bounding_box": [
+        234,
+        270,
+        311,
+        295
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Raw material B",
+      "bounding_box": [
+        372,
+        270,
+        494,
+        294
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "P002",
+      "bounding_box": [
+        684,
+        268,
+        734,
+        295
+      ],
+      "confidence": 0.9992
+    },
+    {
+      "text": "100 KG",
+      "bounding_box": [
+        790,
+        268,
+        855,
+        294
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Rejected",
+      "bounding_box": [
+        929,
+        266,
+        1007,
+        295
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "0001236",
+      "bounding_box": [
+        0,
+        335,
+        75,
+        361
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "10",
+      "bounding_box": [
+        160,
+        336,
+        192,
+        363
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "CHEM-04",
+      "bounding_box": [
+        235,
+        338,
+        313,
+        363
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "Cleaning compound",
+      "bounding_box": [
+        374,
+        339,
+        528,
+        363
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        685,
+        336,
+        736,
+        364
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "50 L",
+      "bounding_box": [
+        792,
+        336,
+        838,
+        364
+      ],
+      "confidence": 0.9799
+    },
+    {
+      "text": "Approved",
+      "bounding_box": [
+        934,
+        335,
+        1018,
+        365
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

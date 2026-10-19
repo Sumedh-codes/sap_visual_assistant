@@ -1,0 +1,126 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "uncertain"
+  },
+  "screen_title": {
+    "value": "Create Purchase Order",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "SAP Easy Access | Training System (Synthetic)",
+      "value": null,
+      "text": "SAP Easy Access | Training System (Synthetic)",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        0,
+        1365,
+        40
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Create Purchase Order",
+      "value": null,
+      "text": "Create Purchase Order",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        18,
+        66,
+        460,
+        106
+      ]
+    },
+    {
+      "type": "button",
+      "label": "T-Code: ME21N",
+      "value": null,
+      "text": "T-Code: ME21N",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1140,
+        60,
+        1360,
+        96
+      ]
+    },
+    {
+      "type": "other",
+      "label": "Error popup",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        320,
+        238,
+        1045,
+        442
+      ]
+    },
+    {
+      "type": "message",
+      "label": "Error",
+      "value": null,
+      "text": "Error",
+      "severity": "error",
+      "status": "observed",
+      "bounding_box": [
+        340,
+        246,
+        430,
+        272
+      ]
+    },
+    {
+      "type": "message",
+      "label": "Purchasing organization is required.",
+      "value": null,
+      "text": "Purchasing organization is required.",
+      "severity": "error",
+      "status": "observed",
+      "bounding_box": [
+        360,
+        286,
+        980,
+        330
+      ]
+    },
+    {
+      "type": "message",
+      "label": "Message ID: ME 083 (illustrative)",
+      "value": "ME 083 (illustrative)",
+      "text": "Message ID: ME 083 (illustrative)",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        360,
+        326,
+        820,
+        352
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Continue",
+      "value": null,
+      "text": "Continue",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        880,
+        362,
+        1008,
+        402
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

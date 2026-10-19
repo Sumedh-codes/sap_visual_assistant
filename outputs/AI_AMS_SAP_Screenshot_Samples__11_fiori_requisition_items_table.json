@@ -1,0 +1,532 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "uncertain"
+  },
+  "screen_title": {
+    "value": "Monitor Purchase Requisition Items",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Launchpad header",
+      "value": "SAP Fiori Launchpad | Sample Training System",
+      "text": "SAP Fiori Launchpad | Sample Training System",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        0,
+        1365,
+        48
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Title",
+      "value": "Monitor Purchase Requisition Items",
+      "text": "Monitor Purchase Requisition Items",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        56,
+        820,
+        106
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Column Header - Requisition",
+      "value": "Requisition",
+      "text": "Requisition",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        48,
+        120,
+        208,
+        155
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Column Header - Item",
+      "value": "Item",
+      "text": "Item",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        208,
+        120,
+        288,
+        155
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Column Header - Material",
+      "value": "Material",
+      "text": "Material",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        288,
+        120,
+        428,
+        155
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Column Header - Short Text",
+      "value": "Short Text",
+      "text": "Short Text",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        428,
+        120,
+        768,
+        155
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Column Header - Plant",
+      "value": "Plant",
+      "text": "Plant",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        768,
+        120,
+        848,
+        155
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Column Header - Quantity",
+      "value": "Quantity",
+      "text": "Quantity",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        848,
+        120,
+        928,
+        155
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Column Header - Status",
+      "value": "Status",
+      "text": "Status",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        928,
+        120,
+        980,
+        155
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Requisition",
+      "value": "10001234",
+      "text": "10001234",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        48,
+        155,
+        208,
+        195
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Item",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        208,
+        155,
+        288,
+        195
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Material",
+      "value": "RM-1001",
+      "text": "RM-1001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        288,
+        155,
+        428,
+        195
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Short Text",
+      "value": "Raw material A",
+      "text": "Raw material A",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        428,
+        155,
+        768,
+        195
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Plant",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        768,
+        155,
+        848,
+        195
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Quantity",
+      "value": "500 KG",
+      "text": "500 KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        848,
+        155,
+        928,
+        195
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 1 - Status",
+      "value": "Approved",
+      "text": "Approved",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        928,
+        155,
+        980,
+        195
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Requisition",
+      "value": "10001234",
+      "text": "10001234",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        48,
+        195,
+        208,
+        235
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Item",
+      "value": "20",
+      "text": "20",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        208,
+        195,
+        288,
+        235
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Material",
+      "value": "PK-2004",
+      "text": "PK-2004",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        288,
+        195,
+        428,
+        235
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Short Text",
+      "value": "Packaging",
+      "text": "Packaging",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        428,
+        195,
+        768,
+        235
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Plant",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        768,
+        195,
+        848,
+        235
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Quantity",
+      "value": "200 EA",
+      "text": "200 EA",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        848,
+        195,
+        928,
+        235
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 2 - Status",
+      "value": "In Review",
+      "text": "In Review",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        928,
+        195,
+        980,
+        235
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Requisition",
+      "value": "10001235",
+      "text": "10001235",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        48,
+        235,
+        208,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Item",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        208,
+        235,
+        288,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Material",
+      "value": "RM-1007",
+      "text": "RM-1007",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        288,
+        235,
+        428,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Short Text",
+      "value": "Raw material B",
+      "text": "Raw material B",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        428,
+        235,
+        768,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Plant",
+      "value": "P002",
+      "text": "P002",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        768,
+        235,
+        848,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Quantity",
+      "value": "100 KG",
+      "text": "100 KG",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        848,
+        235,
+        928,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 3 - Status",
+      "value": "Rejected",
+      "text": "Rejected",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        928,
+        235,
+        980,
+        275
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Requisition",
+      "value": "10001236",
+      "text": "10001236",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        48,
+        275,
+        208,
+        315
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Item",
+      "value": "10",
+      "text": "10",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        208,
+        275,
+        288,
+        315
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Material",
+      "value": "CHEM-04",
+      "text": "CHEM-04",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        288,
+        275,
+        428,
+        315
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Short Text",
+      "value": "Cleaning compound",
+      "text": "Cleaning compound",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        428,
+        275,
+        768,
+        315
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Plant",
+      "value": "P001",
+      "text": "P001",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        768,
+        275,
+        848,
+        315
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Quantity",
+      "value": "50 L",
+      "text": "50 L",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        848,
+        275,
+        928,
+        315
+      ]
+    },
+    {
+      "type": "table_cell",
+      "label": "Row 4 - Status",
+      "value": "Approved",
+      "text": "Approved",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        928,
+        275,
+        980,
+        315
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

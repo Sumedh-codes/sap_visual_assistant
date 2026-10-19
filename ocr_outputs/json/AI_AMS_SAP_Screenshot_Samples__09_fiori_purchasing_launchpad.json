@@ -1,0 +1,182 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "unreadable"
+  },
+  "screen_title": {
+    "value": "Purchasing Overview",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": "Manage Purchase Orders",
+      "value": null,
+      "text": "Manage Purchase Orders",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        112,
+        147,
+        320,
+        205
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Open application →",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        20,
+        252,
+        196,
+        276
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Create Purchase Requisition",
+      "value": null,
+      "text": "Create Purchase Requisition",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        589,
+        146,
+        776,
+        206
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Open application →",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        507,
+        257,
+        672,
+        277
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Manage RFQs Sourcing",
+      "value": null,
+      "text": "Manage RFQs Sourcing",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1058,
+        144,
+        1214,
+        205
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Open application →",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        983,
+        255,
+        1150,
+        276
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Manage Purchase Contracts",
+      "value": null,
+      "text": "Manage Purchase Contracts",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        109,
+        439,
+        320,
+        496
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Supplier Evaluation",
+      "value": null,
+      "text": "Supplier Evaluation",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        590,
+        439,
+        716,
+        497
+      ]
+    },
+    {
+      "type": "label",
+      "label": "Monitor Items Delivery",
+      "value": null,
+      "text": "Monitor Items Delivery",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1077,
+        441,
+        1242,
+        500
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Open application →",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        16,
+        545,
+        194,
+        567
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Open application →",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        507,
+        547,
+        678,
+        571
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Open application →",
+      "value": null,
+      "text": "Open application →",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        996,
+        550,
+        1175,
+        572
+      ]
+    }
+  ],
+  "uncertain_fields": []
+}

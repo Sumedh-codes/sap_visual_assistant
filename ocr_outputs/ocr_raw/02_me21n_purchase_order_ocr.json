@@ -1,0 +1,395 @@
+{
+  "image": "02_me21n_purchase_order.png",
+  "detections": [
+    {
+      "text": "Menu Edit Goto Extras System Help",
+      "bounding_box": [
+        0,
+        0,
+        326,
+        30
+      ],
+      "confidence": 0.9961
+    },
+    {
+      "text": "Create Purchase Order",
+      "bounding_box": [
+        0,
+        45,
+        321,
+        79
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "T-Code: ME21N",
+      "bounding_box": [
+        1226,
+        40,
+        1385,
+        70
+      ],
+      "confidence": 0.9898
+    },
+    {
+      "text": "endor",
+      "bounding_box": [
+        0,
+        97,
+        64,
+        131
+      ],
+      "confidence": 0.9994
+    },
+    {
+      "text": "Purchasing Org.",
+      "bounding_box": [
+        357,
+        101,
+        488,
+        130
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Purchasing Group",
+      "bounding_box": [
+        640,
+        101,
+        790,
+        130
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Company Code",
+      "bounding_box": [
+        925,
+        98,
+        1055,
+        132
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "SF00011080",
+      "bounding_box": [
+        0,
+        133,
+        124,
+        161
+      ],
+      "confidence": 0.9998
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        363,
+        131,
+        425,
+        166
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "P11",
+      "bounding_box": [
+        645,
+        132,
+        696,
+        166
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "1000",
+      "bounding_box": [
+        934,
+        131,
+        996,
+        165
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "tem Overview",
+      "bounding_box": [
+        0,
+        200,
+        163,
+        230
+      ],
+      "confidence": 0.9939
+    },
+    {
+      "text": "tem",
+      "bounding_box": [
+        0,
+        240,
+        44,
+        272
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Material",
+      "bounding_box": [
+        79,
+        243,
+        165,
+        272
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Short Text",
+      "bounding_box": [
+        250,
+        246,
+        348,
+        274
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Qty",
+      "bounding_box": [
+        619,
+        244,
+        665,
+        277
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "Plant",
+      "bounding_box": [
+        755,
+        243,
+        816,
+        274
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Net Price",
+      "bounding_box": [
+        899,
+        244,
+        988,
+        273
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "0",
+      "bounding_box": [
+        0,
+        286,
+        18,
+        314
+      ],
+      "confidence": 0.8364
+    },
+    {
+      "text": "RM-1001",
+      "bounding_box": [
+        78,
+        287,
+        161,
+        316
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Raw material A",
+      "bounding_box": [
+        251,
+        290,
+        376,
+        316
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "500 KG",
+      "bounding_box": [
+        622,
+        288,
+        689,
+        317
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        758,
+        287,
+        814,
+        318
+      ],
+      "confidence": 0.9999
+    },
+    {
+      "text": "125.00",
+      "bounding_box": [
+        902,
+        286,
+        968,
+        316
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "o",
+      "bounding_box": [
+        0,
+        334,
+        18,
+        364
+      ],
+      "confidence": 0.7797
+    },
+    {
+      "text": "PK-2004",
+      "bounding_box": [
+        77,
+        334,
+        156,
+        364
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Packaging material",
+      "bounding_box": [
+        254,
+        339,
+        408,
+        366
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "200 EA",
+      "bounding_box": [
+        625,
+        334,
+        692,
+        365
+      ],
+      "confidence": 0.9996
+    },
+    {
+      "text": "P001",
+      "bounding_box": [
+        762,
+        334,
+        819,
+        366
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "18.50",
+      "bounding_box": [
+        906,
+        335,
+        964,
+        367
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "0",
+      "bounding_box": [
+        0,
+        383,
+        19,
+        411
+      ],
+      "confidence": 0.9438
+    },
+    {
+      "text": "RM-1007",
+      "bounding_box": [
+        81,
+        384,
+        164,
+        413
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Raw material B",
+      "bounding_box": [
+        256,
+        386,
+        381,
+        412
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "100 KG",
+      "bounding_box": [
+        629,
+        383,
+        697,
+        413
+      ],
+      "confidence": 0.9527
+    },
+    {
+      "text": "P002",
+      "bounding_box": [
+        766,
+        383,
+        821,
+        413
+      ],
+      "confidence": 0.9996
+    },
+    {
+      "text": "92.00",
+      "bounding_box": [
+        909,
+        384,
+        967,
+        414
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Document reference: Contract 200000005 (synthetic training value)",
+      "bounding_box": [
+        0,
+        469,
+        581,
+        497
+      ],
+      "confidence": 0.9916
+    },
+    {
+      "text": "Check",
+      "bounding_box": [
+        0,
+        869,
+        69,
+        899
+      ],
+      "confidence": 1.0
+    },
+    {
+      "text": "Messages",
+      "bounding_box": [
+        128,
+        869,
+        228,
+        898
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

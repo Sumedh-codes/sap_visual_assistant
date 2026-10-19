@@ -1,0 +1,213 @@
+{
+  "screen_type": "SAP_FIORI",
+  "transaction_code": {
+    "value": null,
+    "status": "uncertain"
+  },
+  "screen_title": {
+    "value": "Purchase Contract: Header Details",
+    "status": "observed"
+  },
+  "elements": [
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "SAP Easy Access | Training System (Synthetic)",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        0,
+        0,
+        1228,
+        48
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Menu  Edit  Goto  Extras  System  Help",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        8,
+        48,
+        600,
+        72
+      ]
+    },
+    {
+      "type": "label",
+      "label": null,
+      "value": null,
+      "text": "Purchase Contract: Header Details",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        16,
+        72,
+        700,
+        116
+      ]
+    },
+    {
+      "type": "button",
+      "label": null,
+      "value": null,
+      "text": "T-Code: ME32K",
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        1000,
+        80,
+        1216,
+        116
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Vendor Name",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "unreadable",
+      "bounding_box": [
+        24,
+        132,
+        370,
+        164
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Vendor Contact Email",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "unreadable",
+      "bounding_box": [
+        392,
+        132,
+        688,
+        164
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Purchasing Organization",
+      "value": "P001",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        748,
+        132,
+        1020,
+        164
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Company Code",
+      "value": "1000",
+      "text": null,
+      "severity": null,
+      "status": "observed",
+      "bounding_box": [
+        24,
+        184,
+        288,
+        214
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Contract Number",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "unreadable",
+      "bounding_box": [
+        388,
+        184,
+        660,
+        214
+      ]
+    },
+    {
+      "type": "field",
+      "label": "Created By",
+      "value": null,
+      "text": null,
+      "severity": null,
+      "status": "unreadable",
+      "bounding_box": [
+        708,
+        184,
+        1020,
+        214
+      ]
+    },
+    {
+      "type": "message",
+      "label": null,
+      "value": null,
+      "text": "Training note: redact sensitive fields before external model calls.",
+      "severity": "info",
+      "status": "observed",
+      "bounding_box": [
+        20,
+        244,
+        920,
+        320
+      ]
+    }
+  ],
+  "uncertain_fields": [
+    {
+      "label": "Vendor Name",
+      "value": null,
+      "reason": "redacted",
+      "bounding_box": [
+        24,
+        132,
+        370,
+        164
+      ]
+    },
+    {
+      "label": "Vendor Contact Email",
+      "value": null,
+      "reason": "redacted",
+      "bounding_box": [
+        392,
+        132,
+        688,
+        164
+      ]
+    },
+    {
+      "label": "Contract Number",
+      "value": null,
+      "reason": "redacted",
+      "bounding_box": [
+        388,
+        184,
+        660,
+        214
+      ]
+    },
+    {
+      "label": "Created By",
+      "value": null,
+      "reason": "redacted",
+      "bounding_box": [
+        708,
+        184,
+        1020,
+        214
+      ]
+    }
+  ]
+}
